@@ -6,7 +6,7 @@
 
 1. GitHub 저장소에서 **Settings → Pages**로 이동합니다.
 2. **Branch: main / (root)**를 선택합니다.
-3. `https://<아이디>.github.io/earnings-calendar/`에서 확인합니다.
+3. `https://kjysss2.github.io/US263Q/`에서 확인합니다.
 
 ## 일정 데이터
 

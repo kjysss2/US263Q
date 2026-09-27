@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d3b78">
+<title>실적발표 캘린더</title>
+<style>
+  :root{
+    --blue:#1a56a8;
+    --blue-dark:#0d3b78;
+    --semi-blue:#1261c9;
+    --semi-blue-dark:#0b4696;
+    --red:#d92b2b;
+    --line:#d7dde6;
+    --bg:#f4f6f9;
+    --cell:#ffffff;
+    --before:#eef4fc;
+    --after:#e8f0fa;
+    --tba:#f7f3e8;
+    --text:#1c2530;
+    --muted:#667085;
+    --confirmed:#087f5b;
+    --confirmed-bg:#eaf8f2;
+    --focus:#1c5fc4;
+  }
+
+  *{box-sizing:border-box}
+
+  html{
+    -webkit-text-size-adjust:100%;
+    scroll-behavior:smooth;
+  }
+
+  body{
+    margin:0;
+    background:var(--bg);
+    font-family:'Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif;
+    color:var(--text);
+    font-size:14px;
+  }
+
+  header{
+    background:var(--blue-dark);
+    color:#fff;
+    padding:14px max(16px,env(safe-area-inset-right)) 14px max(16px,env(safe-area-inset-left));
+    display:flex;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+
+  .header-title{min-width:0}
+
+  header h1{
+    margin:0;
+    font-size:18px;
+    line-height:1.3;
+  }
+
+  header .sub{
+    display:block;
+    margin-top:3px;
+    font-size:12px;
+    opacity:.86;
+  }
+
+  #updated{
+    margin-left:auto;
+    font-size:12px;
+    opacity:.86;
+    white-space:nowrap;
+  }
+
+  #todayButton{
+    display:none;
+    border:1px solid rgba(255,255,255,.45);
+    border-radius:999px;
+    background:rgba(255,255,255,.12);
+    color:#fff;
+    padding:7px 11px;
+    font:inherit;
+    font-size:12px;
+    font-weight:700;
+    cursor:pointer;
+    touch-action:manipulation;
+  }
+
+  main{
+    padding:16px;
+    max-width:1500px;
+    margin:0 auto;
+  }
+
+  .legend{
+    font-size:12px;
+    color:#5a6675;
+    margin:0 0 14px;
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+
+  .legend-key{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+  }
+
+  .legend-dot{
+    width:9px;
+    height:9px;
+    border-radius:50%;
+    display:inline-block;
+  }
+
+  .legend-dot.semiconductor{background:var(--semi-blue)}
+  .legend-dot.highlight{background:var(--red)}
+  .legend-dot.confirmed{background:var(--confirmed)}
+
+  .legend .dot{
+    display:inline-block;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    margin-right:4px;
+  }
+
+  .legend .dot.focus{background:var(--focus)}
+  .legend .dot.confirmed{background:var(--confirmed)}
+
+  .summary{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin:0 0 14px;
+  }
+
+  .summary-card{
+    display:flex;
+    align-items:baseline;
+    gap:6px;
+    padding:8px 11px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:9px;
+    color:var(--muted);
+    font-size:12px;
+  }
+
+  .summary-card strong{
+    color:var(--blue-dark);
+    font-size:16px;
+  }
+
+  .week{
+    background:var(--cell);
+    border:1px solid var(--line);
+    border-radius:10px;
+    margin-bottom:18px;
+    overflow-x:auto;
+    box-shadow:0 1px 3px rgba(0,0,0,.06);
+    scroll-margin-top:12px;
+  }
+
+  table{
+    border-collapse:collapse;
+    width:100%;
+    min-width:900px;
+    table-layout:fixed;
+  }
+
+  th,td{
+    border:1px solid var(--line);
+    vertical-align:top;
+    padding:8px 10px;
+  }
+
+  th.date{
+    background:var(--blue);
+    color:#fff;
+    font-size:13px;
+    text-align:left;
+    white-space:nowrap;
+  }
+
+  th.date.today{background:var(--red)}
+  th.date.out{opacity:.65}
+
+  th.rowlab{
+    background:#f0f3f8;
+    color:var(--blue-dark);
+    font-size:12px;
+    width:70px;
+    text-align:center;
+    vertical-align:middle;
+  }
+
+  tr.before-row td{background:var(--before)}
+  tr.after-row td{background:var(--after)}
+  tr.tba-row td{background:var(--tba)}
+
+  td{
+    width:calc((100% - 70px) / 5);
+    min-height:100px;
+  }
+
+  .co{
+    position:relative;
+    padding:3px 0;
+    line-height:1.5;
+    word-break:keep-all;
+    overflow-wrap:anywhere;
+  }
+
+  .co .nm{font-weight:650}
+  .co.hl .nm{color:var(--red)}
+
+  /* 반도체 관련 종목은 주요 관심 여부와 관계없이 파란색으로 표시 */
+  .co.semiconductor .nm{
+    color:var(--semi-blue);
+    font-weight:750;
+  }
+
+  /* 반도체이면서 주요 관심 종목이면 빨간 점으로 hl 상태를 보존 */
+  .co.semiconductor.hl::before{
+    content:"";
+    display:inline-block;
+    width:6px;
+    height:6px;
+    margin-right:5px;
+    border-radius:50%;
+    background:var(--red);
+    vertical-align:middle;
+  }
+
+  .co.focus .nm::before{
+    content:"•";
+    color:var(--focus);
+    margin-right:4px;
+  }
+
+  .confirmed-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:2px;
+    margin-left:5px;
+    padding:1px 5px;
+    border:1px solid rgba(8,127,91,.25);
+    border-radius:999px;
+    background:var(--confirmed-bg);
+    color:var(--confirmed);
+    font-size:10px;
+    font-weight:800;
+    line-height:1.35;
+    vertical-align:middle;
+    white-space:nowrap;
+  }
+
+  .paren{
+    color:#8b94a1;
+  }
+
+  a.lnk{
+    cursor:pointer;
+    text-decoration:none;
+    font-weight:700;
+  }
+
+  a.lnk.tr{
+    color:#b84d00;
+  }
+
+  a.lnk.ir{
+    color:var(--confirmed);
+    font-size:11px;
+    margin-left:3px;
+  }
+
+  a.lnk:hover{
+    text-decoration:underline;
+  }
+
+  .empty{
+    color:#aab3bf;
+    font-size:12px;
+  }
+
+  .mobile-calendar{display:none}
+
+  footer{
+    text-align:center;
+    color:#8b94a1;
+    font-size:12px;
+    padding:10px 16px calc(30px + env(safe-area-inset-bottom));
+  }
+
+  @media (max-width:760px){
+    body{font-size:15px}
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:20;
+      padding-top:calc(10px + env(safe-area-inset-top));
+      padding-bottom:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,.16);
+    }
+
+    .header-title{flex:1 1 210px}
+    header h1{font-size:17px}
+
+    header .sub{
+      font-size:11px;
+      line-height:1.35;
+    }
+
+    #updated{
+      order:3;
+      width:100%;
+      margin-left:0;
+      font-size:11px;
+    }
+
+    #todayButton{
+      min-height:36px;
+    }
+
+    main{padding:10px}
+
+    .legend{
+      margin:0 2px 10px;
+      gap:6px 10px;
+      font-size:11px;
+      line-height:1.4;
+    }
+
+    .legend span:nth-child(3),
+    .legend span:nth-child(4){
+      display:none;
+    }
+
+    .summary{
+      gap:6px;
+      margin-bottom:10px;
+    }
+
+    .summary-card{
+      padding:7px 9px;
+      font-size:11px;
+    }
+
+    .summary-card strong{
+      font-size:15px;
+    }
+
+    .desktop-calendar{
+      display:none;
+    }
+
+    .mobile-calendar{
+      display:block;
+    }
+
+    .mobile-week{
+      margin:0 0 16px;
+    }
+
+    .desktop-calendar{display:none}
+    .mobile-calendar{display:block}
+
+    .mobile-week-title{
+      margin:0 2px 8px;
+      color:var(--blue-dark);
+      font-size:13px;
+      font-weight:800;
+    }
+
+    .day-card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:12px;
+      margin-bottom:10px;
+      overflow:hidden;
+      box-shadow:0 1px 4px rgba(0,0,0,.06);
+      scroll-margin-top:92px;
+    }
+
+    .day-card.today{border:2px solid var(--red)}
+
+    .day-head{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      background:var(--blue);
+      color:#fff;
+      font-weight:800;
+      font-size:15px;
+    }
+
+    .day-card.today .day-head{background:var(--red)}
+
+    .today-badge{
+      margin-left:auto;
+      padding:3px 7px;
+      border-radius:999px;
+      background:rgba(255,255,255,.2);
+      font-size:11px;
+    }
+
+    .session{
+      display:grid;
+      grid-template-columns:68px minmax(0,1fr);
+      border-top:1px solid var(--line);
+    }
+
+    .session:first-of-type{border-top:0}
+
+    .session-label{
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:12px 6px;
+      color:var(--blue-dark);
+      font-size:12px;
+      font-weight:800;
+      text-align:center;
+    }
+
+    .session.before .session-label,
+    .session.before .session-list{background:var(--before)}
+
+    .session.after .session-label,
+    .session.after .session-list{background:var(--after)}
+
+    .session.tba .session-label,
+    .session.tba .session-list{background:var(--tba)}
+
+    .session-list{
+      min-width:0;
+      padding:8px 10px;
+      border-left:1px solid var(--line);
+    }
+
+    .session-list .co{
+      display:flex;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:4px;
+      min-height:34px;
+      padding:5px 0;
+      border-bottom:1px dashed rgba(102,112,133,.22);
+      font-size:15px;
+    }
+
+    .session-list .co:last-child{border-bottom:0}
+
+    .session-list .co.semiconductor.hl::before{
+      flex:0 0 auto;
+      margin-right:1px;
+    }
+
+    .session-list .empty{
+      display:block;
+      padding:8px 0;
+    }
+
+    a.lnk.tr{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:30px;
+      margin-left:2px;
+      padding:4px 8px;
+      border:1px solid rgba(184,77,0,.3);
+      border-radius:999px;
+      background:#fff7f0;
+      font-size:12px;
+      line-height:1;
+      touch-action:manipulation;
+    }
+
+    a.lnk.ir{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:30px;
+      padding:4px 7px;
+      border:1px solid rgba(8,127,91,.25);
+      border-radius:999px;
+      background:var(--confirmed-bg);
+      font-size:11px;
+      touch-action:manipulation;
+    }
+
+    .session-list .paren{
+      display:none;
+    }
+
+    footer{
+      padding-top:4px;
+      font-size:10px;
+      line-height:1.5;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1 id="title">실적발표 캘린더</h1>
+    <span class="sub" id="rangeLabel"></span>
+  </div>
+  <button type="button" id="todayButton">오늘 일정</button>
+  <span id="updated"></span>
+</header>
+
+<main>
+  <p class="legend">
+    <span class="legend-key"><span class="legend-dot semiconductor"></span><b style="color:var(--semi-blue)">파란 종목</b> = 반도체 관련</span>
+    <span class="legend-key"><span class="legend-dot confirmed"></span><b style="color:var(--confirmed)">확정</b> = 회사 공식 IR 또는 발표자료에서 날짜 확인</span>
+    <span>미확정 일정은 임의로 넣지 않았습니다.</span>
+    <span>발표 시간이 확인되지 않은 회사는 <b>시간미정</b>에 표시됩니다.</span>
+  </p>
+
+  <div id="summary" class="summary" aria-label="캘린더 요약"></div>
+
+  <div id="desktopCal" class="desktop-calendar"></div>
+  <div id="mobileCal" class="mobile-calendar"></div>
+</main>
+
+<footer>
+  일정 데이터: data/calendar.json · 기준일: 2026-09-28 KST · 날짜 출처: 각 회사 공식 IR
+</footer>
+
+<script>
+const DAYNAMES=["일","월","화","수","목","금","토"];
+const CALENDAR_DATA_URL="data/calendar.json";
+
+/*
+ * 반도체 설계·제조·파운드리·장비·테스트·후공정·EDA/IP·메모리/스토리지
+ * 관련 미국 상장 티커입니다. 기존 calendar.json을 수정하지 않고 이 목록으로 색상을 분류합니다.
+ */
+const SEMICONDUCTOR_TICKERS=new Set([
+  "AEHR","ADI","ALAB","AMAT","AMD","AMKR","ARM","ASML","AXTI",
+  "CDNS","CRUS","FORM","GFS","HIMX","INTC","KLAC","LRCX","MCHP",
+  "MKSI","MPWR","MRVL","MXL","NVDA","NVTS","NXPI","ON","QCOM",
+  "QRVO","RMBS","SIMO","SITM","SNDK","SNPS","STM","SWKS","TER",
+  "TSM","TSEM","TXN","UCTT","UMC","VECO"
+]);
+
+
+async function loadJson(url,fallback=null){
+  const response=await fetch(url+"?t="+Date.now());
+
+  if(!response.ok){
+    if(fallback!==null) return fallback;
+    throw new Error(`HTTP ${response.status}: ${url}`);
+  }
+
+  return response.json();
+}
+
+function isSemiconductor(entry){
+  return SEMICONDUCTOR_TICKERS.has(String(entry.ticker||"").toUpperCase());
+}
+function parseIso(value){
+  const [year,month,day]=String(value).split("-").map(Number);
+  return new Date(year,month-1,day);
+}
+
+function iso(date){
+  return date.getFullYear()
+    +"-"+String(date.getMonth()+1).padStart(2,"0")
+    +"-"+String(date.getDate()).padStart(2,"0");
+}
+
+function addDays(date,days){
+  const result=new Date(date);
+  result.setDate(result.getDate()+days);
+  return result;
+}
+
+function mondayOf(date){
+  const result=new Date(date);
+  const offset=(result.getDay()+6)%7;
+  result.setDate(result.getDate()-offset);
+  return result;
+}
+
+function formatRange(start,end){
+  if(start.getFullYear()===end.getFullYear()){
+    return `${start.getFullYear()}년 ${start.getMonth()+1}월 ${start.getDate()}일 ~ ${end.getMonth()+1}월 ${end.getDate()}일`;
+  }
+
+  return `${start.getFullYear()}년 ${start.getMonth()+1}월 ${start.getDate()}일 ~ ${end.getFullYear()}년 ${end.getMonth()+1}월 ${end.getDate()}일`;
+}
+
+function escapeHtml(value){
+  return String(value??"")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+function safeUrl(value){
+  try{
+    const url=new URL(value);
+    return ["https:","http:"].includes(url.protocol) ? url.href : "#";
+  }catch{
+    return "#";
+  }
+}
+
+loadJson(CALENDAR_DATA_URL).then(render).catch(error=>{
+  const message=`<p class="empty">데이터를 불러오지 못했습니다. ${escapeHtml(error.message)}</p>`;
+  document.getElementById("desktopCal").innerHTML=message;
+  document.getElementById("mobileCal").innerHTML=message;
+});
+
+function render(data){
+  const entries=Array.isArray(data.entries) ? data.entries : [];
+
+  if(!entries.length){
+    const message="<p class='empty'>표시할 일정이 없습니다.</p>";
+    document.getElementById("desktopCal").innerHTML=message;
+    document.getElementById("mobileCal").innerHTML=message;
+    return;
+  }
+
+  document.getElementById("title").textContent=data.title||"실적발표 캘린더";
+
+  const allDates=entries
+    .map(item=>item.date)
+    .filter(Boolean)
+    .sort();
+
+  const start=parseIso(data.startDate||allDates[0]);
+  const end=parseIso(data.endDate||allDates[allDates.length-1]);
+
+  document.getElementById("rangeLabel").textContent=formatRange(start,end);
+
+  if(data.updated){
+    document.getElementById("updated").textContent="마지막 갱신: "+data.updated;
+  }
+
+  renderSummary(data,entries);
+
+  const byDate={};
+
+  for(const entry of entries){
+    if(!entry.date) continue;
+
+    if(!byDate[entry.date]){
+      byDate[entry.date]={before:[],after:[],tba:[]};
+    }
+
+    const session=entry.session==="after"
+      ? "after"
+      : entry.session==="tba"
+        ? "tba"
+        : "before";
+
+    byDate[entry.date][session].push(entry);
+  }
+
+  const weeks=[];
+  let cursor=mondayOf(start);
+
+  while(cursor<=end){
+    const days=[];
+
+    for(let index=0;index<5;index++){
+      days.push(addDays(cursor,index));
+    }
+
+    const hasEntries=days.some(day=>{
+      const dayData=byDate[iso(day)];
+      if(!dayData) return false;
+
+      return ["before","after","tba"].some(key=>
+        Array.isArray(dayData[key]) && dayData[key].length>0
+      );
+    });
+
+    if(hasEntries){
+      weeks.push(days);
+    }
+
+    cursor=addDays(cursor,7);
+  }
+
+  renderDesktop(weeks,byDate,start,end);
+  renderMobile(weeks,byDate,start,end);
+  setupTodayButton(start,end);
+}
+
+function renderSummary(data,entries){
+  const confirmed=entries.filter(item=>item.confirmed===true).length;
+  const focus=entries.filter(item=>item.focus===true).length;
+  const sourceCount=new Set(entries.map(item=>item.source).filter(Boolean)).size;
+  document.getElementById("summary").innerHTML=`
+    <div class="summary-card"><strong>${confirmed}</strong><span>공식 일정 확정</span></div>
+    <div class="summary-card"><strong>${focus}</strong><span>반도체·장비 관심주</span></div>
+    <div class="summary-card"><strong>${sourceCount}</strong><span>회사 IR 출처</span></div>`;
+}
+
+function renderDesktop(weeks,byDate,start,end){
+  const todayIso=iso(new Date());
+  const startIso=iso(start);
+  const endIso=iso(end);
+  const cal=document.getElementById("desktopCal");
+  cal.innerHTML="";
+
+  for(const days of weeks){
+    const table=document.createElement("table");
+    let header="<tr><th class='rowlab'></th>";
+
+    for(const day of days){
+      const dayIso=iso(day);
+      const classes=["date"];
+
+      if(dayIso===todayIso) classes.push("today");
+      if(dayIso<startIso || dayIso>endIso) classes.push("out");
+
+      header+=`<th class="${classes.join(" ")}">${day.getMonth()+1}/${day.getDate()} (${DAYNAMES[day.getDay()]})</th>`;
+    }
+
+    header+="</tr>";
+
+    const hasTba=days.some(day=>{
+      const dayData=byDate[iso(day)]||{};
+      return Array.isArray(dayData.tba) && dayData.tba.length>0;
+    });
+
+    table.innerHTML=
+      header
+      +row("장전","before-row","before",days,byDate,startIso,endIso)
+      +row("장후","after-row","after",days,byDate,startIso,endIso)
+      +(hasTba ? row("시간미정","tba-row","tba",days,byDate,startIso,endIso) : "");
+
+    const wrapper=document.createElement("div");
+    wrapper.className="week";
+    wrapper.dataset.days=days.map(iso).join(",");
+    wrapper.appendChild(table);
+    cal.appendChild(wrapper);
+  }
+}
+
+function renderMobile(weeks,byDate,start,end){
+  const todayIso=iso(new Date());
+  const startIso=iso(start);
+  const endIso=iso(end);
+  const cal=document.getElementById("mobileCal");
+  cal.innerHTML="";
+
+  for(const days of weeks){
+    const visibleDays=days.filter(day=>{
+      const dayIso=iso(day);
+      if(dayIso<startIso || dayIso>endIso) return false;
+
+      const dayData=byDate[dayIso]||{};
+      return ["before","after","tba"].some(key=>
+        Array.isArray(dayData[key]) && dayData[key].length>0
+      );
+    });
+
+    if(!visibleDays.length) continue;
+
+    const week=document.createElement("section");
+    week.className="mobile-week";
+
+    const monday=days[0];
+    const friday=days[4];
+    week.innerHTML=`<h2 class="mobile-week-title">${monday.getMonth()+1}/${monday.getDate()} ~ ${friday.getMonth()+1}/${friday.getDate()}</h2>`;
+
+    for(const day of visibleDays){
+      const dayIso=iso(day);
+      const dayData=byDate[dayIso]||{before:[],after:[],tba:[]};
+      const card=document.createElement("article");
+      card.id=`day-${dayIso}`;
+      card.className="day-card"+(dayIso===todayIso ? " today" : "");
+
+      let html=`<div class="day-head">
+        <span>${day.getMonth()+1}월 ${day.getDate()}일 (${DAYNAMES[day.getDay()]})</span>
+        ${dayIso===todayIso ? '<span class="today-badge">오늘</span>' : ''}
+      </div>`;
+
+      html+=mobileSession("장전","before",dayData.before||[]);
+      html+=mobileSession("장후","after",dayData.after||[]);
+
+      if(Array.isArray(dayData.tba) && dayData.tba.length){
+        html+=mobileSession("시간미정","tba",dayData.tba);
+      }
+
+      card.innerHTML=html;
+      week.appendChild(card);
+    }
+
+    cal.appendChild(week);
+  }
+}
+
+function mobileSession(label,session,list){
+  return `<div class="session ${session}">
+    <div class="session-label">${label}</div>
+    <div class="session-list">
+      ${list.length ? list.map(companyHtml).join("") : "<span class='empty'>-</span>"}
+    </div>
+  </div>`;
+}
+
+function setupTodayButton(start,end){
+  const button=document.getElementById("todayButton");
+  const todayIso=iso(new Date());
+  const inRange=todayIso>=iso(start) && todayIso<=iso(end);
+
+  if(!inRange){
+    button.style.display="none";
+    return;
+  }
+
+  button.style.display="inline-flex";
+  button.onclick=()=>{
+    const mobileTarget=document.getElementById(`day-${todayIso}`);
+
+    if(window.matchMedia("(max-width: 760px)").matches && mobileTarget){
+      mobileTarget.scrollIntoView({behavior:"smooth",block:"start"});
+      return;
+    }
+
+    const desktopTarget=[...document.querySelectorAll(".week")]
+      .find(item=>(item.dataset.days||"").split(",").includes(todayIso));
+
+    if(desktopTarget){
+      desktopTarget.scrollIntoView({behavior:"smooth",block:"start"});
+    }
+  };
+}
+
+function row(label,className,session,days,byDate,startIso,endIso){
+  let html=`<tr class="${className}"><th class="rowlab">${label}</th>`;
+
+  for(const day of days){
+    const dayIso=iso(day);
+
+    if(dayIso<startIso || dayIso>endIso){
+      html+="<td><span class='empty'>-</span></td>";
+      continue;
+    }
+
+    const list=(byDate[dayIso]||{})[session]||[];
+
+    html+="<td>"
+      +(list.length
+        ? list.map(companyHtml).join("")
+        : "<span class='empty'>-</span>")
+      +"</td>";
+  }
+
+  return html+"</tr>";
+}
+
+function companyHtml(entry){
+  const classes=["co"];
+
+  if(entry.hl) classes.push("hl");
+  if(isSemiconductor(entry)) classes.push("semiconductor");
+  if(entry.focus) classes.push("focus");
+  const name=escapeHtml(entry.name||entry.ticker||"");
+  const ticker=escapeHtml(entry.ticker||"");
+
+  const confirmed=entry.confirmed
+    ? ` <span class="confirmed-badge" title="공식 IR에서 날짜 확인">✓ 확정</span>`
+    : "";
+
+  const ir=entry.source
+    ? ` <a class="lnk ir" href="${safeUrl(entry.source)}" target="_blank" rel="noopener" title="공식 IR 출처">IR</a>`
+    : "";
+
+  const title=ticker ? ` title="${ticker}"` : "";
+
+  return `<div class="${classes.join(" ")}"><span class="nm"${title}>${name}</span>${confirmed}${ir}</div>`;
+}
+</script>
+
+</body>
+</html>

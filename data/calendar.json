@@ -1,0 +1,123 @@
+{
+  "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
+  "startDate": "2026-10-01",
+  "endDate": "2026-11-30",
+  "updated": "2026-09-28 KST",
+  "verificationNote": "회사 공식 IR 또는 공식 발표자료에서 2026년 3분기 실적발표 날짜를 확인한 일정만 표시",
+  "entries": [
+    {
+      "date": "2026-10-08",
+      "session": "before",
+      "name": "펩시코",
+      "ticker": "PEP",
+      "confirmed": true,
+      "source": "https://www.pepsico.com/en/newsroom/press-releases/2026/pepsico-announces-timing-and-availability-of-third-quarter-2026-financial-results"
+    },
+    {
+      "date": "2026-10-09",
+      "session": "before",
+      "name": "델타에어라인",
+      "ticker": "DAL",
+      "confirmed": true,
+      "source": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-Webcast-of-September-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "date": "2026-10-13",
+      "session": "before",
+      "name": "JP모건",
+      "ticker": "JPM",
+      "confirmed": true,
+      "source": "https://www.jpmorganchase.com/ir"
+    },
+    {
+      "date": "2026-10-13",
+      "session": "before",
+      "name": "웰스파고",
+      "ticker": "WFC",
+      "confirmed": true,
+      "source": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Updates-2026-Earnings-Release-Date-Information/default.aspx"
+    },
+    {
+      "date": "2026-10-13",
+      "session": "before",
+      "name": "골드만삭스",
+      "ticker": "GS",
+      "confirmed": true,
+      "source": "https://www.goldmansachs.com/pressroom/press-releases/2025/conference-call-dates-to-announce-4q25-and-2026-earnings-results"
+    },
+    {
+      "date": "2026-10-13",
+      "session": "before",
+      "name": "시티그룹",
+      "ticker": "C",
+      "confirmed": true,
+      "source": "https://www.citigroup.com/global/news/press-release/2025/citi-third-fourth-quarter-2025-and-2026-earnings-calls"
+    },
+    {
+      "date": "2026-10-13",
+      "session": "before",
+      "name": "유나이티드헬스그룹",
+      "ticker": "UNH",
+      "confirmed": true,
+      "source": "https://www.unitedhealthgroup.com/newsroom/2026/2026-09-15-uhg-announces-q3-earnings-release-date.html"
+    },
+    {
+      "date": "2026-10-14",
+      "session": "before",
+      "name": "뱅크오브아메리카",
+      "ticker": "BAC",
+      "confirmed": true,
+      "source": "https://investor.bankofamerica.com/"
+    },
+    {
+      "date": "2026-10-14",
+      "session": "before",
+      "name": "ASML",
+      "ticker": "ASML",
+      "focus": true,
+      "confirmed": true,
+      "source": "https://www.asml.com/en/investors/financial-results"
+    },
+    {
+      "date": "2026-10-15",
+      "session": "before",
+      "name": "TSMC",
+      "ticker": "TSM",
+      "focus": true,
+      "confirmed": true,
+      "source": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+    },
+    {
+      "date": "2026-10-16",
+      "session": "before",
+      "name": "시티즌스 파이낸셜",
+      "ticker": "CFG",
+      "confirmed": true,
+      "source": "https://investor.citizensbank.com/about-us/newsroom/latest-news/2026/2026-09-10-210526622.aspx"
+    },
+    {
+      "date": "2026-10-20",
+      "session": "tba",
+      "name": "MSCI",
+      "ticker": "MSCI",
+      "confirmed": true,
+      "source": "https://ir.msci.com/node/22526/pdf"
+    },
+    {
+      "date": "2026-10-21",
+      "session": "before",
+      "name": "AT&T",
+      "ticker": "T",
+      "confirmed": true,
+      "source": "https://about.att.com/story/2026/q3-earnings-reminder.html"
+    },
+    {
+      "date": "2026-10-23",
+      "session": "before",
+      "name": "아메리칸 익스프레스",
+      "ticker": "AXP",
+      "confirmed": true,
+      "source": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2026/American-Express-Plans-Live-Audio-Webcast-of-Third-Quarter-2026-Earnings-Conference-Call/default.aspx"
+    }
+  ]
+}

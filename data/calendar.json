@@ -1,10 +1,34 @@
 {
   "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
-  "startDate": "2026-10-01",
-  "endDate": "2026-11-30",
+  "startDate": "2026-09-28",
+  "endDate": "2026-10-27",
   "updated": "2026-09-28 KST",
   "verificationNote": "회사 공식 IR 또는 공식 발표자료에서 2026년 3분기 실적발표 날짜를 확인한 일정만 표시",
   "entries": [
+    {
+      "date": "2026-09-29",
+      "session": "after",
+      "name": "컨센트릭스",
+      "ticker": "CNXC",
+      "confirmed": true,
+      "source": "https://ir.concentrix.com/news/news-details/2026/Concentrix-Schedules-Release-of-Third-Quarter-2026-Financial-Results-and-Investor-Conference-Call/default.aspx"
+    },
+    {
+      "date": "2026-09-30",
+      "session": "after",
+      "name": "프로그레스 소프트웨어",
+      "ticker": "PRGS",
+      "confirmed": true,
+      "source": "https://investors.progress.com/news-releases/news-release-details/progress-software-report-third-quarter-2026-financial-results"
+    },
+    {
+      "date": "2026-10-01",
+      "session": "tba",
+      "name": "맥코믹",
+      "ticker": "MKC",
+      "confirmed": true,
+      "source": "https://mccormickcorporation.gcs-web.com/news-releases/news-release-details/mccormick-company-report-2026-third-quarter-financial-results"
+    },
     {
       "date": "2026-10-08",
       "session": "before",
@@ -62,6 +86,14 @@
       "source": "https://www.unitedhealthgroup.com/newsroom/2026/2026-09-15-uhg-announces-q3-earnings-release-date.html"
     },
     {
+      "date": "2026-10-13",
+      "session": "before",
+      "name": "존슨앤존슨",
+      "ticker": "JNJ",
+      "confirmed": true,
+      "source": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-to-Host-Investor-Conference-Call-on-Third-Quarter-Results/default.aspx"
+    },
+    {
       "date": "2026-10-14",
       "session": "before",
       "name": "뱅크오브아메리카",
@@ -88,6 +120,14 @@
       "source": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
     },
     {
+      "date": "2026-10-15",
+      "session": "tba",
+      "name": "PNC 파이낸셜",
+      "ticker": "PNC",
+      "confirmed": true,
+      "source": "https://investor.pnc.com/"
+    },
+    {
       "date": "2026-10-16",
       "session": "before",
       "name": "시티즌스 파이낸셜",
@@ -101,7 +141,23 @@
       "name": "MSCI",
       "ticker": "MSCI",
       "confirmed": true,
-      "source": "https://ir.msci.com/node/22526/pdf"
+      "source": "https://ir.msci.com/node/22936/pdf"
+    },
+    {
+      "date": "2026-10-20",
+      "session": "before",
+      "name": "제너럴 모터스",
+      "ticker": "GM",
+      "confirmed": true,
+      "source": "https://investor.gm.com/news-releases/news-release-details/gm-announces-third-quarter-2026-earnings-conference-call-details"
+    },
+    {
+      "date": "2026-10-20",
+      "session": "after",
+      "name": "넷플릭스",
+      "ticker": "NFLX",
+      "confirmed": true,
+      "source": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
     },
     {
       "date": "2026-10-21",
@@ -112,12 +168,92 @@
       "source": "https://about.att.com/story/2026/q3-earnings-reminder.html"
     },
     {
+      "date": "2026-10-21",
+      "session": "after",
+      "name": "오세이니어링",
+      "ticker": "OII",
+      "confirmed": true,
+      "source": "https://investors.oceaneering.com/news/news-details/2026/Oceaneering-Schedules-Third-Quarter-2026-Earnings-Release-and-Conference-Call/default.aspx"
+    },
+    {
+      "date": "2026-10-21",
+      "session": "after",
+      "name": "몰리나 헬스케어",
+      "ticker": "MOH",
+      "confirmed": true,
+      "source": "https://molinahealthcare.gcs-web.com/news-releases/news-release-details/molina-healthcare-announces-third-quarter-2026-earnings-release"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "before",
+      "name": "유니언 퍼시픽",
+      "ticker": "UNP",
+      "confirmed": true,
+      "source": "https://investor.unionpacific.com/news-releases/news-release-details/union-pacific-corporation-announces-third-quarter-2026-earnings"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "before",
+      "name": "풀테그룹",
+      "ticker": "PHM",
+      "confirmed": true,
+      "source": "https://newsroom.pultegroup.com/pultegroups-third-quarter-2026-earnings-release-and-webcast-conference-call-scheduled-for-october-22-2026/"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "before",
+      "name": "퀘스트 다이아그노스틱스",
+      "ticker": "DGX",
+      "confirmed": true,
+      "source": "https://newsroom.questdiagnostics.com/2026-09-22-Quest-Diagnostics-to-Release-Third-Quarter-Financial-Results-on-October-22%2C-2026"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "before",
+      "name": "컴캐스트",
+      "ticker": "CMCSA",
+      "confirmed": true,
+      "source": "https://cmcsa.gcs-web.com/news-releases/news-release-details/comcast-host-third-quarter-2026-earnings-conference-call"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "tba",
+      "name": "블랙스톤",
+      "ticker": "BX",
+      "confirmed": true,
+      "source": "https://www.blackstone.com/news/press/blackstone-announces-third-quarter-2026-investor-call/"
+    },
+    {
       "date": "2026-10-23",
       "session": "before",
       "name": "아메리칸 익스프레스",
       "ticker": "AXP",
       "confirmed": true,
       "source": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2026/American-Express-Plans-Live-Audio-Webcast-of-Third-Quarter-2026-Earnings-Conference-Call/default.aspx"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "랜드스타 시스템",
+      "ticker": "LSTR",
+      "confirmed": true,
+      "source": "https://investor.landstar.com/event-calendar"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "웨이스트 매니지먼트",
+      "ticker": "WM",
+      "confirmed": true,
+      "source": "https://investors.wm.com/news-releases/news-release-details/wm-sets-date-third-quarter-2026-earnings-conference-call"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "NOV",
+      "ticker": "NOV",
+      "confirmed": true,
+      "source": "https://investors.nov.com/news-releases/news-release-details/nov-announces-third-quarter-2026-earnings-conference-call"
     }
   ]
 }

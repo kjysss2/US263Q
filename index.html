@@ -523,6 +523,7 @@
     <span class="legend-key"><span class="legend-dot semiconductor"></span><b style="color:var(--semi-blue)">파란 종목</b> = 반도체 관련</span>
     <span>회사 공식 IR 또는 발표자료에서 날짜를 확인한 일정만 표시합니다.</span>
     <span>회사 공식 일정이 확인되지 않은 항목은 넣지 않았습니다.</span>
+    <span>Transcript는 Notion의 <b>26.3Q 미국DB</b>에서 연결된 항목만 표시됩니다.</span>
     <span>발표 시간이 확인되지 않은 회사는 <b>시간미정</b>에 표시됩니다.</span>
   </p>
 
@@ -533,12 +534,16 @@
 </main>
 
 <footer>
-  일정 데이터: data/calendar.json · 기준일: 2026-09-28 KST · 날짜 출처: 각 회사 공식 IR
+  자동 업데이트: GitHub Actions 30분 주기 · Transcript: Notion 26.3Q 미국DB · 기준일: 2026-09-28 KST
 </footer>
 
 <script>
 const DAYNAMES=["일","월","화","수","목","금","토"];
 const CALENDAR_DATA_URL="data/calendar.json";
+const TRANSCRIPT_DATA_URL="data/notion-transcripts.json";
+const REFRESH_INTERVAL_MS=30*60*1000;
+
+let notionTranscripts={};
 
 /*
  * 반도체 설계·제조·파운드리·장비·테스트·후공정·EDA/IP·메모리/스토리지
@@ -617,11 +622,46 @@ function safeUrl(value){
   }
 }
 
-loadJson(CALENDAR_DATA_URL).then(render).catch(error=>{
+function normalizeTranscriptLinks(links={}){
+  const normalized={};
+
+  for(const [ticker,url] of Object.entries(links||{})){
+    const key=String(ticker||"").toUpperCase().trim();
+
+    if(key && isNotionUrl(url)){
+      normalized[key]=url;
+    }
+  }
+
+  return normalized;
+}
+
+function isNotionUrl(url){
+  return /^https:\/\/(app\.)?notion\.com\//i.test(url||"")
+    || /^https:\/\/(www\.)?notion\.so\//i.test(url||"");
+}
+
+function transcriptUrl(entry){
+  const ticker=String(entry.ticker||"").toUpperCase();
+
+  return ticker && notionTranscripts[ticker]
+    ? notionTranscripts[ticker]
+    : null;
+}
+
+Promise.all([
+  loadJson(CALENDAR_DATA_URL),
+  loadJson(TRANSCRIPT_DATA_URL,{links:{}})
+]).then(([calendarData,transcriptData])=>{
+  notionTranscripts=normalizeTranscriptLinks(transcriptData.links);
+  render(calendarData);
+}).catch(error=>{
   const message=`<p class="empty">데이터를 불러오지 못했습니다. ${escapeHtml(error.message)}</p>`;
   document.getElementById("desktopCal").innerHTML=message;
   document.getElementById("mobileCal").innerHTML=message;
 });
+
+setInterval(()=>window.location.reload(),REFRESH_INTERVAL_MS);
 
 function render(data){
   const entries=Array.isArray(data.entries) ? data.entries : [];
@@ -880,8 +920,12 @@ function companyHtml(entry){
     : "";
 
   const title=ticker ? ` title="${ticker}"` : "";
+  const transcript=transcriptUrl(entry);
+  const transcriptLink=transcript
+    ? ` <span class="paren">(</span><a class="lnk tr" href="${safeUrl(transcript)}" target="_blank" rel="noopener" title="Notion Transcript">Transcript</a><span class="paren">)</span>`
+    : "";
 
-  return `<div class="${classes.join(" ")}"><span class="nm"${title}>${name}</span>${ir}</div>`;
+  return `<div class="${classes.join(" ")}"><span class="nm"${title}>${name}</span>${transcriptLink}${ir}</div>`;
 }
 </script>
 

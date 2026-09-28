@@ -1,0 +1,71 @@
+name: Notion Transcript 링크 자동 업데이트
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/update.yml
+      - scripts/update_links.py
+      - data/calendar.json
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notion-transcript-sync
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 저장소 불러오기
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: JSON 파일 형식 확인
+        run: |
+          python -m json.tool data/calendar.json > /dev/null
+          python -m json.tool data/notion-transcripts.json > /dev/null
+
+      - name: NOTION_TOKEN 확인
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: |
+          if [ -z "$NOTION_TOKEN" ]; then
+            echo "::error::GitHub Actions Secret NOTION_TOKEN이 없습니다."
+            exit 1
+          fi
+
+      - name: Notion 26.3Q 미국DB 조회
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: 0850296c-0da5-4d53-b3a6-2bf62ab932e0
+          NOTION_DATA_SOURCE_ID: 6df7fb69-2624-4a66-92e8-1e03afeea1ba
+        run: python scripts/update_links.py
+
+      - name: 변경사항 저장
+        run: |
+          if git diff --quiet -- data/notion-transcripts.json; then
+            echo "변경된 Transcript 링크가 없습니다."
+            exit 0
+          fi
+
+          git config user.name "earnings-bot"
+          git config user.email "actions@github.com"
+          git add data/notion-transcripts.json
+          git commit -m "자동 업데이트: Notion Transcript 링크"
+          git pull --rebase origin main
+          git push origin HEAD:main

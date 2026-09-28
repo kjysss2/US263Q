@@ -6,28 +6,13 @@
   "verificationNote": "회사 공식 IR 또는 공식 발표자료에서 2026년 3분기 실적발표 날짜를 확인한 일정만 표시",
   "entries": [
     {
-      "date": "2026-09-29",
-      "session": "after",
-      "name": "컨센트릭스",
-      "ticker": "CNXC",
-      "confirmed": true,
-      "source": "https://ir.concentrix.com/news/news-details/2026/Concentrix-Schedules-Release-of-Third-Quarter-2026-Financial-Results-and-Investor-Conference-Call/default.aspx"
-    },
-    {
       "date": "2026-09-30",
       "session": "after",
-      "name": "프로그레스 소프트웨어",
-      "ticker": "PRGS",
+      "name": "마이크론",
+      "ticker": "MU",
+      "focus": true,
       "confirmed": true,
-      "source": "https://investors.progress.com/news-releases/news-release-details/progress-software-report-third-quarter-2026-financial-results"
-    },
-    {
-      "date": "2026-10-01",
-      "session": "tba",
-      "name": "맥코믹",
-      "ticker": "MKC",
-      "confirmed": true,
-      "source": "https://mccormickcorporation.gcs-web.com/news-releases/news-release-details/mccormick-company-report-2026-third-quarter-financial-results"
+      "source": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx"
     },
     {
       "date": "2026-10-08",
@@ -168,46 +153,6 @@
       "source": "https://about.att.com/story/2026/q3-earnings-reminder.html"
     },
     {
-      "date": "2026-10-21",
-      "session": "after",
-      "name": "오세이니어링",
-      "ticker": "OII",
-      "confirmed": true,
-      "source": "https://investors.oceaneering.com/news/news-details/2026/Oceaneering-Schedules-Third-Quarter-2026-Earnings-Release-and-Conference-Call/default.aspx"
-    },
-    {
-      "date": "2026-10-21",
-      "session": "after",
-      "name": "몰리나 헬스케어",
-      "ticker": "MOH",
-      "confirmed": true,
-      "source": "https://molinahealthcare.gcs-web.com/news-releases/news-release-details/molina-healthcare-announces-third-quarter-2026-earnings-release"
-    },
-    {
-      "date": "2026-10-22",
-      "session": "before",
-      "name": "유니언 퍼시픽",
-      "ticker": "UNP",
-      "confirmed": true,
-      "source": "https://investor.unionpacific.com/news-releases/news-release-details/union-pacific-corporation-announces-third-quarter-2026-earnings"
-    },
-    {
-      "date": "2026-10-22",
-      "session": "before",
-      "name": "풀테그룹",
-      "ticker": "PHM",
-      "confirmed": true,
-      "source": "https://newsroom.pultegroup.com/pultegroups-third-quarter-2026-earnings-release-and-webcast-conference-call-scheduled-for-october-22-2026/"
-    },
-    {
-      "date": "2026-10-22",
-      "session": "before",
-      "name": "퀘스트 다이아그노스틱스",
-      "ticker": "DGX",
-      "confirmed": true,
-      "source": "https://newsroom.questdiagnostics.com/2026-09-22-Quest-Diagnostics-to-Release-Third-Quarter-Financial-Results-on-October-22%2C-2026"
-    },
-    {
       "date": "2026-10-22",
       "session": "before",
       "name": "컴캐스트",
@@ -230,22 +175,6 @@
       "ticker": "AXP",
       "confirmed": true,
       "source": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2026/American-Express-Plans-Live-Audio-Webcast-of-Third-Quarter-2026-Earnings-Conference-Call/default.aspx"
-    },
-    {
-      "date": "2026-10-27",
-      "session": "after",
-      "name": "랜드스타 시스템",
-      "ticker": "LSTR",
-      "confirmed": true,
-      "source": "https://investor.landstar.com/event-calendar"
-    },
-    {
-      "date": "2026-10-27",
-      "session": "after",
-      "name": "웨이스트 매니지먼트",
-      "ticker": "WM",
-      "confirmed": true,
-      "source": "https://investors.wm.com/news-releases/news-release-details/wm-sets-date-third-quarter-2026-earnings-conference-call"
     },
     {
       "date": "2026-10-27",

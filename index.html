@@ -521,8 +521,8 @@
 <main>
   <p class="legend">
     <span class="legend-key"><span class="legend-dot semiconductor"></span><b style="color:var(--semi-blue)">파란 종목</b> = 반도체 관련</span>
-    <span class="legend-key"><span class="legend-dot confirmed"></span><b style="color:var(--confirmed)">확정</b> = 회사 공식 IR 또는 발표자료에서 날짜 확인</span>
-    <span>미확정 일정은 임의로 넣지 않았습니다.</span>
+    <span>회사 공식 IR 또는 발표자료에서 날짜를 확인한 일정만 표시합니다.</span>
+    <span>회사 공식 일정이 확인되지 않은 항목은 넣지 않았습니다.</span>
     <span>발표 시간이 확인되지 않은 회사는 <b>시간미정</b>에 표시됩니다.</span>
   </p>
 
@@ -705,7 +705,7 @@ function renderSummary(data,entries){
   const focus=entries.filter(item=>item.focus===true).length;
   const sourceCount=new Set(entries.map(item=>item.source).filter(Boolean)).size;
   document.getElementById("summary").innerHTML=`
-    <div class="summary-card"><strong>${confirmed}</strong><span>공식 일정 확정</span></div>
+    <div class="summary-card"><strong>${confirmed}</strong><span>공식 일정</span></div>
     <div class="summary-card"><strong>${focus}</strong><span>반도체·장비 관심주</span></div>
     <div class="summary-card"><strong>${sourceCount}</strong><span>회사 IR 출처</span></div>`;
 }
@@ -875,17 +875,13 @@ function companyHtml(entry){
   const name=escapeHtml(entry.name||entry.ticker||"");
   const ticker=escapeHtml(entry.ticker||"");
 
-  const confirmed=entry.confirmed
-    ? ` <span class="confirmed-badge" title="공식 IR에서 날짜 확인">✓ 확정</span>`
-    : "";
-
   const ir=entry.source
     ? ` <a class="lnk ir" href="${safeUrl(entry.source)}" target="_blank" rel="noopener" title="공식 IR 출처">IR</a>`
     : "";
 
   const title=ticker ? ` title="${ticker}"` : "";
 
-  return `<div class="${classes.join(" ")}"><span class="nm"${title}>${name}</span>${confirmed}${ir}</div>`;
+  return `<div class="${classes.join(" ")}"><span class="nm"${title}>${name}</span>${ir}</div>`;
 }
 </script>
 

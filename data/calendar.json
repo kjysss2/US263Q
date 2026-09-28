@@ -113,14 +113,6 @@
       "source": "https://investor.pnc.com/"
     },
     {
-      "date": "2026-10-16",
-      "session": "before",
-      "name": "시티즌스 파이낸셜",
-      "ticker": "CFG",
-      "confirmed": true,
-      "source": "https://investor.citizensbank.com/about-us/newsroom/latest-news/2026/2026-09-10-210526622.aspx"
-    },
-    {
       "date": "2026-10-20",
       "session": "tba",
       "name": "MSCI",

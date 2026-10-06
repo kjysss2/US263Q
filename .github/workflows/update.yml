@@ -9,10 +9,8 @@ on:
       - scripts/update_links.py
       - data/calendar.json
   schedule:
-    # 한국시간 06:00~08:40, 20분 간격 (UTC 전날 21:00~23:40)
-    - cron: "0,20,40 21-23 * * *"
-    # 한국시간 09:00 마지막 실행 (UTC 00:00)
-    - cron: "0 0 * * *"
+    # 하루 종일 20분 간격. GitHub Actions가 혼잡한 정각은 피합니다.
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
 
 permissions:

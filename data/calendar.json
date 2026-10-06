@@ -3,7 +3,7 @@
   "startDate": "2026-09-28",
   "endDate": "2026-11-18",
   "updated": "2026-10-06 KST",
-  "verificationNote": "기존 공식 확인 일정은 그대로 유지하며, 사용자 제공 이미지의 미국 잠정 일정(변동 가능)을 추가 표시",
+  "verificationNote": "회사 공식 IR로 확인된 기존 일정과 사용자 제공 이미지의 잠정 일정(미국·한국·일본·유럽)을 함께 표시합니다.",
   "entries": [
     {
       "date": "2026-09-30",
@@ -884,6 +884,322 @@
       "session": "after",
       "name": "엔비디아",
       "ticker": "NVDA",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-07",
+      "session": "tba",
+      "market": "KR",
+      "name": "LG전자",
+      "ticker": "066570",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-08",
+      "session": "tba",
+      "market": "KR",
+      "name": "삼성전자",
+      "ticker": "005930",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-08",
+      "session": "tba",
+      "market": "KR",
+      "name": "LG에너지솔루션",
+      "ticker": "373220",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-14",
+      "session": "tba",
+      "market": "KR",
+      "name": "세나테크놀로지",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-19",
+      "session": "tba",
+      "market": "KR",
+      "name": "현대로템",
+      "ticker": "064350",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "tba",
+      "market": "KR",
+      "name": "LG디스플레이",
+      "ticker": "034220",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "market": "KR",
+      "name": "LG이노텍",
+      "ticker": "011070",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "KR",
+      "name": "삼성에스디에스",
+      "ticker": "018260",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "tba",
+      "market": "KR",
+      "name": "카카오뱅크",
+      "ticker": "323410",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "tba",
+      "market": "JP",
+      "name": "화낙",
+      "ticker": "6954",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "tba",
+      "market": "JP",
+      "name": "후지쯔",
+      "ticker": "6702",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-23",
+      "session": "tba",
+      "market": "JP",
+      "name": "히타치",
+      "ticker": "6501",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-23",
+      "session": "tba",
+      "market": "JP",
+      "name": "신에츠화학",
+      "ticker": "4063",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "market": "JP",
+      "name": "어드반테스트",
+      "ticker": "6857",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "JP",
+      "name": "이비덴",
+      "ticker": "4062",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "market": "JP",
+      "name": "키옥시아",
+      "ticker": "285A",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "market": "JP",
+      "name": "도쿄일렉트론",
+      "ticker": "8035",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "market": "JP",
+      "name": "무라타",
+      "ticker": "6981",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "market": "JP",
+      "name": "교세라",
+      "ticker": "6971",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "market": "JP",
+      "name": "TDK",
+      "ticker": "6762",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "market": "JP",
+      "name": "파나소닉",
+      "ticker": "6752",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-10",
+      "session": "tba",
+      "market": "JP",
+      "name": "소프트뱅크",
+      "ticker": "9984",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-10",
+      "session": "tba",
+      "market": "JP",
+      "name": "후지쿠라",
+      "ticker": "5803",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-14",
+      "session": "tba",
+      "market": "EU",
+      "name": "ASML",
+      "ticker": "ASML",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "tba",
+      "market": "EU",
+      "name": "베시",
+      "ticker": "BESI",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "EU",
+      "name": "슈나이더일렉트릭",
+      "ticker": "SU",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "EU",
+      "name": "아디다스",
+      "ticker": "ADS",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "tba",
+      "market": "EU",
+      "name": "BMW",
+      "ticker": "BMW",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "EU",
+      "name": "레인메탈",
+      "ticker": "RHM",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "EU",
+      "name": "노보노디스크",
+      "ticker": "NVO",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "EU",
+      "name": "오스테드",
+      "ticker": "ORSTED",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-11",
+      "session": "tba",
+      "market": "EU",
+      "name": "테크노프로브",
+      "ticker": "TPRO",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-11",
+      "session": "tba",
+      "market": "EU",
+      "name": "베스타스",
+      "ticker": "VWS",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-18",
+      "session": "tba",
+      "market": "EU",
+      "name": "소이텍",
+      "ticker": "SOI",
+      "semiconductor": true,
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     }

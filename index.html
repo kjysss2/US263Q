@@ -178,10 +178,40 @@
     scroll-margin-top:12px;
   }
 
+  .market-label,
+  .market-head{
+    width:56px;
+    min-width:56px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:13px;
+    font-weight:850;
+    color:#fff;
+    background:var(--blue-dark);
+  }
+
+  .market-label.market-us{background:var(--blue)}
+  .market-label.market-korea{background:#174a78}
+  .market-label.market-japan{background:#365f86}
+  .market-label.market-europe{background:#4b5f78}
+
+  .market-placeholder-row td{
+    background:#f8fafc;
+    color:var(--muted);
+  }
+
+  .market-placeholder-row .rowlab{
+    color:var(--muted);
+    background:#f4f6f9;
+  }
+
+  .mobile-market-group,
+  .mobile-market-placeholder{display:none}
+
   table{
     border-collapse:collapse;
     width:100%;
-    min-width:900px;
+    min-width:980px;
     table-layout:fixed;
   }
 
@@ -216,7 +246,7 @@
   tr.tba-row td{background:var(--tba)}
 
   td{
-    width:calc((100% - 70px) / 5);
+    width:calc((100% - 126px) / 5);
     min-height:100px;
   }
 
@@ -380,6 +410,32 @@
 
     .mobile-week{
       margin:0 0 16px;
+    }
+
+    .mobile-market-group,
+    .mobile-market-placeholder{display:block}
+
+    .mobile-market-title{
+      margin:14px 0 8px;
+      padding:9px 12px;
+      border-radius:9px;
+      background:var(--blue-dark);
+      color:#fff;
+      font-size:15px;
+      font-weight:850;
+    }
+
+    .mobile-market-group.us .mobile-market-title{background:var(--blue)}
+
+    .mobile-market-empty{
+      margin:0 0 12px;
+      padding:14px 12px;
+      border:1px solid var(--line);
+      border-radius:10px;
+      background:#fff;
+      color:var(--muted);
+      font-size:12px;
+      text-align:center;
     }
 
     .desktop-calendar{display:none}
@@ -777,7 +833,7 @@ function renderDesktop(weeks,byDate,start,end){
 
   for(const days of weeks){
     const table=document.createElement("table");
-    let header="<tr><th class='rowlab'></th>";
+    let header="<tr><th class='market-head'>국가</th><th class='rowlab'></th>";
 
     for(const day of days){
       const dayIso=iso(day);
@@ -795,12 +851,17 @@ function renderDesktop(weeks,byDate,start,end){
       const dayData=byDate[iso(day)]||{};
       return Array.isArray(dayData.tba) && dayData.tba.length>0;
     });
+    const usRowCount=hasTba ? 3 : 2;
+    const usMarketCell=`<th class="market-label market-us" rowspan="${usRowCount}" scope="rowgroup">미국</th>`;
 
     table.innerHTML=
       header
-      +row("장전","before-row","before",days,byDate,startIso,endIso)
+      +marketPlaceholderRow("한국","market-korea",days,startIso,endIso)
+      +marketPlaceholderRow("일본","market-japan",days,startIso,endIso)
+      +row("장전","before-row","before",days,byDate,startIso,endIso,usMarketCell)
       +row("장후","after-row","after",days,byDate,startIso,endIso)
-      +(hasTba ? row("시간미정","tba-row","tba",days,byDate,startIso,endIso) : "");
+      +(hasTba ? row("시간미정","tba-row","tba",days,byDate,startIso,endIso) : "")
+      +marketPlaceholderRow("유럽","market-europe",days,startIso,endIso);
 
     const wrapper=document.createElement("div");
     wrapper.className="week";
@@ -816,6 +877,13 @@ function renderMobile(weeks,byDate,start,end){
   const endIso=iso(end);
   const cal=document.getElementById("mobileCal");
   cal.innerHTML="";
+  cal.appendChild(mobileMarketPlaceholder("한국"));
+  cal.appendChild(mobileMarketPlaceholder("일본"));
+
+  const usGroup=document.createElement("section");
+  usGroup.className="mobile-market-group us";
+  usGroup.innerHTML='<h2 class="mobile-market-title">미국</h2>';
+  cal.appendChild(usGroup);
 
   for(const days of weeks){
     const visibleDays=days.filter(day=>{
@@ -860,8 +928,17 @@ function renderMobile(weeks,byDate,start,end){
       week.appendChild(card);
     }
 
-    cal.appendChild(week);
+    usGroup.appendChild(week);
   }
+
+  cal.appendChild(mobileMarketPlaceholder("유럽"));
+}
+
+function mobileMarketPlaceholder(name){
+  const section=document.createElement("section");
+  section.className="mobile-market-placeholder";
+  section.innerHTML=`<h2 class="mobile-market-title">${escapeHtml(name)}</h2><p class="mobile-market-empty">등록된 일정이 없습니다.</p>`;
+  return section;
 }
 
 function mobileSession(label,session,list){
@@ -901,8 +978,21 @@ function setupTodayButton(start,end){
   };
 }
 
-function row(label,className,session,days,byDate,startIso,endIso){
-  let html=`<tr class="${className}"><th class="rowlab">${label}</th>`;
+function marketPlaceholderRow(market,className,days,startIso,endIso){
+  let html=`<tr class="market-placeholder-row"><th class="market-label ${className}" scope="row">${escapeHtml(market)}</th><th class="rowlab">일정</th>`;
+
+  for(const day of days){
+    const dayIso=iso(day);
+    html+=dayIso<startIso || dayIso>endIso
+      ? "<td><span class='empty'>-</span></td>"
+      : "<td><span class='empty'>-</span></td>";
+  }
+
+  return html+"</tr>";
+}
+
+function row(label,className,session,days,byDate,startIso,endIso,marketCell=""){
+  let html=`<tr class="${className}">${marketCell}<th class="rowlab">${label}</th>`;
 
   for(const day of days){
     const dayIso=iso(day);

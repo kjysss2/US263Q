@@ -37,9 +37,9 @@ GitHub Actions가 비공개 Notion DB를 읽으려면 다음 준비가 필요합
 
 1. Notion에서 해당 DB를 API 연동(Integration)과 공유합니다.
 2. GitHub 저장소 `US263Q`의 **Settings → Secrets and variables → Actions**에서 `NOTION_TOKEN`이라는 Repository secret을 추가합니다.
-3. **Actions → Notion Transcript 링크 자동 업데이트 → Run workflow**를 눌러 즉시 실행하거나, 30분 주기 실행을 기다립니다.
+3. **Actions → Notion Transcript 링크 자동 업데이트 → Run workflow**를 눌러 즉시 실행하거나, 자동 실행을 기다립니다.
 
-워크플로는 `*/30 * * * *` 일정으로 실행되며, 변경된 Transcript 데이터가 있을 때만 커밋합니다. 브라우저 화면도 30분마다 자동 새로고침됩니다.
+워크플로는 매시 7분, 27분, 47분(하루 종일 20분 간격)에 실행됩니다. GitHub Actions의 정각 부하를 피하기 위해 정각이 아닌 시각을 사용하며, 변경된 Transcript 데이터가 있을 때만 커밋합니다. 브라우저 화면은 5분마다 새 데이터를 다시 확인합니다.
 
 ## 참고
 

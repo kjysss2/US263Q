@@ -180,8 +180,8 @@
 
   .market-label,
   .market-head{
-    width:56px;
-    min-width:56px;
+    width:78px;
+    min-width:78px;
     text-align:center;
     vertical-align:middle;
     font-size:13px;
@@ -200,9 +200,21 @@
     color:var(--muted);
   }
 
-  .market-placeholder-row .rowlab{
-    color:var(--muted);
-    background:#f4f6f9;
+  .market-country{display:block}
+
+  .session-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:5px;
+    padding:2px 7px;
+    border-radius:999px;
+    background:rgba(255,255,255,.2);
+    color:#fff;
+    font-size:10px;
+    font-weight:800;
+    line-height:1.2;
+    white-space:nowrap;
   }
 
   .mobile-market-group,
@@ -232,21 +244,12 @@
   th.date.today{background:var(--red)}
   th.date.out{opacity:.65}
 
-  th.rowlab{
-    background:#f0f3f8;
-    color:var(--blue-dark);
-    font-size:12px;
-    width:70px;
-    text-align:center;
-    vertical-align:middle;
-  }
-
-  tr.before-row td{background:var(--before)}
+   tr.before-row td{background:var(--before)}
   tr.after-row td{background:var(--after)}
   tr.tba-row td{background:var(--tba)}
 
   td{
-    width:calc((100% - 126px) / 5);
+    width:calc((100% - 78px) / 5);
     min-height:100px;
   }
 
@@ -862,7 +865,7 @@ function renderDesktop(weeks,byDate,start,end){
 
   for(const days of weeks){
     const table=document.createElement("table");
-    let header="<tr><th class='market-head'>국가</th><th class='rowlab'></th>";
+    let header="<tr><th class='market-head'>구분</th>";
 
     for(const day of days){
       const dayIso=iso(day);
@@ -880,14 +883,11 @@ function renderDesktop(weeks,byDate,start,end){
       const dayData=byDate[iso(day)]||{};
       return Array.isArray(dayData.tba) && dayData.tba.length>0;
     });
-    const usRowCount=hasTba ? 3 : 2;
-    const usMarketCell=`<th class="market-label market-us" rowspan="${usRowCount}" scope="rowgroup">미국</th>`;
-
-    table.innerHTML=
+     table.innerHTML=
       header
       +marketRow("한국","market-korea","KR",days,byDate,startIso,endIso)
       +marketRow("일본","market-japan","JP",days,byDate,startIso,endIso)
-      +row("장전","before-row","before",days,byDate,startIso,endIso,usMarketCell)
+      +row("장전","before-row","before",days,byDate,startIso,endIso)
       +row("장후","after-row","after",days,byDate,startIso,endIso)
       +(hasTba ? row("시간미정","tba-row","tba",days,byDate,startIso,endIso) : "")
       +marketRow("유럽","market-europe","EU",days,byDate,startIso,endIso);
@@ -1047,7 +1047,7 @@ function setupTodayButton(start,end){
 }
 
 function marketRow(market,className,marketCode,days,byDate,startIso,endIso){
-  let html=`<tr class="market-placeholder-row"><th class="market-label ${className}" scope="row">${escapeHtml(market)}</th><th class="rowlab">일정</th>`;
+  let html=`<tr class="market-placeholder-row"><th class="market-label ${className}" scope="row">${escapeHtml(market)}</th>`;
 
   for(const day of days){
     const dayIso=iso(day);
@@ -1066,8 +1066,9 @@ function marketRow(market,className,marketCode,days,byDate,startIso,endIso){
   return html+"</tr>";
 }
 
-function row(label,className,session,days,byDate,startIso,endIso,marketCell=""){
-  let html=`<tr class="${className}">${marketCell}<th class="rowlab">${label}</th>`;
+function row(label,className,session,days,byDate,startIso,endIso){
+  const shortLabel=label==="시간미정" ? "미정" : label;
+  let html=`<tr class="${className}"><th class="market-label market-us us-session-label" scope="row"><span class="market-country">미국</span><span class="session-badge">${escapeHtml(shortLabel)}</span></th>`;
 
   for(const day of days){
     const dayIso=iso(day);

@@ -2,7 +2,7 @@
   "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
   "startDate": "2026-09-28",
   "endDate": "2026-12-03",
-  "updated": "2026-10-12 KST",
+  "updated": "2026-10-14 KST",
   "verificationNote": "회사 공식 IR로 확인된 기존 일정과 사용자 제공 이미지의 잠정 일정(미국·한국·일본·유럽)을 함께 표시합니다.",
   "entries": [
     {
@@ -160,8 +160,8 @@
       "session": "before",
       "name": "프로그레시브",
       "ticker": "PGR",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "confirmed": true,
+      "source": "https://investors.progressive.com/financials/financial-news-releases/news-details/2026/Progressive-Reports-August-2026-Results/default.aspx"
     },
     {
       "date": "2026-10-14",

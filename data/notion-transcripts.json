@@ -2,8 +2,9 @@
   "source": "Notion 26.3Q 미국DB",
   "databaseId": "0850296c-0da5-4d53-b3a6-2bf62ab932e0",
   "dataSourceId": "6df7fb69-2624-4a66-92e8-1e03afeea1ba",
-  "updated": "2026-10-16 00:39 KST",
+  "updated": "2026-10-16 09:46 KST",
   "links": {
+    "AA": "https://app.notion.com/p/AA-Alcoa-Corporation-Q3-2026-3fa2cff291cc8104988ded86ad0bbf05",
     "APLD": "https://app.notion.com/p/APLD-Applied-Digital-Corporation-Q1-2027-3f32cff291cc81599815e653641bf977",
     "ASML": "https://app.notion.com/p/ASML-ASML-Holding-N-V-Q3-2026-3f92cff291cc81ed993dc98e1d182925",
     "BAC": "https://app.notion.com/p/BAC-Bank-of-America-Corporation-Q3-2026-3f92cff291cc8108bc2bde860711ac88",
@@ -12,6 +13,7 @@
     "DAL": "https://app.notion.com/p/DAL-Delta-Air-Lines-Inc-Q3-2026-3f42cff291cc81329877c3f57bbe4ffe",
     "ERIC": "https://app.notion.com/p/ERIC-Telefonaktiebolaget-LM-Ericsson-publ-Q3-2026-3fa2cff291cc81f1b9efdc5a189b93bc",
     "GS": "https://app.notion.com/p/GS-The-Goldman-Sachs-Group-Inc-Q3-2026-3f82cff291cc81838f7cc76c1fdd8864",
+    "IBKR": "https://app.notion.com/p/IBKR-Interactive-Brokers-Group-Inc-Q3-2026-3fa2cff291cc81b9a21ade778c205ff6",
     "JNJ": "https://app.notion.com/p/JNJ-Johnson-Johnson-Q3-2026-3f82cff291cc81ae9d16f762e0c2c264",
     "JPM": "https://app.notion.com/p/JPM-JPMorgan-Chase-Co-Q3-2026-3f82cff291cc81ffa2bbefbfa2f09d50",
     "MC": "https://app.notion.com/p/MC-LVMH-Mo-t-Hennessy-Louis-Vuitton-SE-Q3-2026-3f72cff291cc8103ba3fd15acee6efdc",
@@ -19,6 +21,7 @@
     "MU": "https://app.notion.com/p/MU-Micron-Technology-Inc-Q4-2026-3eb2cff291cc81e1a912cccc281a0032",
     "PENG": "https://app.notion.com/p/PENG-Penguin-Solutions-Inc-Q3-2026-3f12cff291cc8120bb5cfd0ea1fc13c7",
     "PEP": "https://app.notion.com/p/PEP-PepsiCo-Inc-Q3-2026-3f32cff291cc8194b771c86296a12b8b",
+    "SCHW": "https://app.notion.com/p/SCHW-The-Charles-Schwab-Corporation-Q3-2026-3fa2cff291cc8199938ef8ed00d1494a",
     "TSM": "https://app.notion.com/p/TSM-Taiwan-Semiconductor-Manufacturing-Company-Limited-Q3-2026-3fa2cff291cc8140bd09f7b1f3fd40d3",
     "UNH": "https://app.notion.com/p/UNH-UnitedHealth-Group-Incorporated-Q3-2026-3f82cff291cc8134bfaefb40ca396928",
     "WFC": "https://app.notion.com/p/WFC-Wells-Fargo-Company-Q3-2026-3f82cff291cc817aa6d5f9b9c3198109"

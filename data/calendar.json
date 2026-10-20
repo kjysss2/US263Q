@@ -2,7 +2,7 @@
   "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
   "startDate": "2026-09-28",
   "endDate": "2026-12-03",
-  "updated": "2026-10-14 KST",
+  "updated": "2026-10-20 KST",
   "verificationNote": "회사 공식 IR로 확인된 기존 일정과 사용자 제공 이미지의 잠정 일정(미국·한국·일본·유럽)을 함께 표시합니다.",
   "entries": [
     {
@@ -2179,6 +2179,14 @@
       "ticker": "RBRK",
       "confirmed": false,
       "scheduleNote": "Investing.com·TipRanks 예상 일정 · 변동 가능"
+    },
+    {
+      "date": "2026-10-20",
+      "session": "after",
+      "name": "스페이스X",
+      "ticker": "SPCX",
+      "confirmed": true,
+      "source": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
     }
   ]
 }

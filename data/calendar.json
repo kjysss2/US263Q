@@ -2,7 +2,7 @@
   "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
   "startDate": "2026-09-28",
   "endDate": "2026-12-03",
-  "updated": "2026-10-20 KST",
+  "updated": "2026-10-21 KST",
   "verificationNote": "회사 공식 IR로 확인된 기존 일정과 사용자 제공 이미지의 잠정 일정(미국·한국·일본·유럽)을 함께 표시합니다.",
   "entries": [
     {
@@ -940,12 +940,12 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-10-21",
       "session": "after",
       "name": "메타플랫폼스",
       "ticker": "META",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
+      "confirmed": true,
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "date": "2026-10-28",

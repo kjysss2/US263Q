@@ -2187,6 +2187,73 @@
       "ticker": "SPCX",
       "confirmed": true,
       "source": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "after",
+      "name": "테너블",
+      "ticker": "TENB",
+      "confirmed": true,
+      "source": "https://investors.tenable.com/news-releases/news-release-details/tenable-announce-fiscal-third-quarter-2026-earnings-results"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "after",
+      "name": "젠디지털",
+      "ticker": "GEN",
+      "confirmed": true,
+      "source": "https://investor.gendigital.com/news/news-details/2026/Gen-to-Announce-Fiscal-2027-Second-Quarter-Results-on-October-28-2026/default.aspx"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "before",
+      "name": "체크포인트소프트웨어",
+      "ticker": "CHKP",
+      "confirmed": true,
+      "source": "https://www.checkpoint.com/about-us/investor-relations/"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "after",
+      "name": "배로니스시스템즈",
+      "ticker": "VRNS",
+      "confirmed": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1361113/000121390026109901/ea030861001ex99-1.htm"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
+      "name": "래피드7",
+      "ticker": "RPD",
+      "confirmed": true,
+      "source": "https://investors.rapid7.com/overview/default.aspx"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
+      "name": "퀄리스",
+      "ticker": "QLYS",
+      "confirmed": false,
+      "scheduleNote": "시장 추정일 · 변동 가능",
+      "source": "https://www.marketchameleon.com/Overview/QLYS/Earnings/Earnings-Dates/"
+    },
+    {
+      "date": "2026-11-24",
+      "session": "after",
+      "name": "지스케일러",
+      "ticker": "ZS",
+      "confirmed": false,
+      "scheduleNote": "시장 추정일 · 변동 가능",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/ZS/earnings/"
+    },
+    {
+      "date": "2026-12-03",
+      "session": "after",
+      "name": "센티넬원",
+      "ticker": "S",
+      "confirmed": false,
+      "scheduleNote": "시장 추정일 · 변동 가능",
+      "source": "https://www.marketbeat.com/stocks/NYSE/S/earnings/"
     }
   ]
 }

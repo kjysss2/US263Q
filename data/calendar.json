@@ -24,18 +24,18 @@
     },
     {
       "date": "2026-10-07",
-      "session": "tba",
-      "market": "KR",
-      "name": "LG전자",
-      "ticker": "066570",
+      "session": "after",
+      "name": "어플라이드디지털",
+      "ticker": "APLD",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
       "date": "2026-10-07",
-      "session": "after",
-      "name": "어플라이드디지털",
-      "ticker": "APLD",
+      "session": "tba",
+      "market": "KR",
+      "name": "LG전자",
+      "ticker": "066570",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -175,18 +175,18 @@
     {
       "date": "2026-10-14",
       "session": "tba",
-      "market": "KR",
-      "name": "세나테크놀로지",
+      "market": "EU",
+      "name": "ASML",
+      "ticker": "ASML",
+      "semiconductor": true,
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
       "date": "2026-10-14",
       "session": "tba",
-      "market": "EU",
-      "name": "ASML",
-      "ticker": "ASML",
-      "semiconductor": true,
+      "market": "KR",
+      "name": "세나테크놀로지",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -217,6 +217,22 @@
     },
     {
       "date": "2026-10-15",
+      "session": "after",
+      "name": "알코아",
+      "ticker": "AA",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-15",
+      "session": "after",
+      "name": "인터랙티브브로커스",
+      "ticker": "IBKR",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-15",
       "session": "tba",
       "market": "EU",
       "name": "에릭슨",
@@ -231,22 +247,6 @@
       "ticker": "PNC",
       "confirmed": true,
       "source": "https://investor.pnc.com/"
-    },
-    {
-      "date": "2026-10-15",
-      "session": "after",
-      "name": "알코아",
-      "ticker": "AA",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-15",
-      "session": "after",
-      "name": "인터랙티브브로커스",
-      "ticker": "IBKR",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
       "date": "2026-10-16",
@@ -275,10 +275,9 @@
     },
     {
       "date": "2026-10-19",
-      "session": "tba",
-      "market": "KR",
-      "name": "현대로템",
-      "ticker": "064350",
+      "session": "after",
+      "name": "스틸다이나믹스",
+      "ticker": "STLD",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -293,9 +292,10 @@
     },
     {
       "date": "2026-10-19",
-      "session": "after",
-      "name": "스틸다이나믹스",
-      "ticker": "STLD",
+      "session": "tba",
+      "market": "KR",
+      "name": "현대로템",
+      "ticker": "064350",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -341,6 +341,30 @@
     },
     {
       "date": "2026-10-20",
+      "session": "after",
+      "name": "넷플릭스",
+      "ticker": "NFLX",
+      "confirmed": true,
+      "source": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "date": "2026-10-20",
+      "session": "after",
+      "name": "스페이스X",
+      "ticker": "SPCX",
+      "confirmed": true,
+      "source": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
+    },
+    {
+      "date": "2026-10-20",
+      "session": "after",
+      "name": "인튜이티브서지컬",
+      "ticker": "ISRG",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-20",
       "session": "tba",
       "market": "EU",
       "name": "어실로룩소티카",
@@ -366,20 +390,12 @@
       "source": "https://ir.msci.com/node/22936/pdf"
     },
     {
-      "date": "2026-10-20",
-      "session": "after",
-      "name": "넷플릭스",
-      "ticker": "NFLX",
-      "confirmed": true,
-      "source": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
-    },
-    {
-      "date": "2026-10-20",
-      "session": "after",
-      "name": "인튜이티브서지컬",
-      "ticker": "ISRG",
+      "date": "2026-10-21",
+      "session": "before",
+      "name": "넥스트에라에너지",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "NEE"
     },
     {
       "date": "2026-10-21",
@@ -392,10 +408,10 @@
     {
       "date": "2026-10-21",
       "session": "before",
-      "name": "버티브",
-      "ticker": "VRT",
+      "name": "필립모리스",
       "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "PM"
     },
     {
       "date": "2026-10-21",
@@ -407,48 +423,20 @@
     },
     {
       "date": "2026-10-21",
-      "session": "tba",
-      "market": "KR",
-      "name": "삼성바이오로직스",
-      "ticker": "207940",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-21",
-      "session": "tba",
-      "market": "KR",
-      "name": "유니드",
-      "ticker": "014830",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-21",
-      "session": "tba",
-      "market": "KR",
-      "name": "LG디스플레이",
-      "ticker": "034220",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-21",
-      "session": "tba",
-      "market": "EU",
-      "name": "SAP",
-      "ticker": "SAP",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-21",
       "session": "after",
       "name": "램리서치",
       "ticker": "LRCX",
       "semiconductor": true,
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-21",
+      "session": "after",
+      "name": "메타플랫폼스",
+      "ticker": "META",
+      "confirmed": true,
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "date": "2026-10-21",
@@ -491,12 +479,40 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
-      "date": "2026-10-22",
-      "session": "before",
-      "name": "넥스트에라에너지",
-      "ticker": "NEE",
+      "date": "2026-10-21",
+      "session": "tba",
+      "market": "EU",
+      "name": "SAP",
+      "ticker": "SAP",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-21",
+      "session": "tba",
+      "market": "KR",
+      "name": "삼성바이오로직스",
+      "ticker": "207940",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-21",
+      "session": "tba",
+      "market": "KR",
+      "name": "유니드",
+      "ticker": "014830",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-21",
+      "session": "tba",
+      "name": "LS ELECTRIC",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "010120",
+      "market": "KR"
     },
     {
       "date": "2026-10-22",
@@ -533,16 +549,16 @@
     {
       "date": "2026-10-22",
       "session": "before",
-      "name": "샌드빅",
-      "ticker": "SDVKY",
+      "name": "블랙스톤",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "BX"
     },
     {
       "date": "2026-10-22",
       "session": "before",
-      "name": "쇼피파이",
-      "ticker": "SHOP",
+      "name": "샌드빅",
+      "ticker": "SDVKY",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -580,6 +596,39 @@
     },
     {
       "date": "2026-10-22",
+      "session": "before",
+      "name": "TTM테크놀로지스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "TTMI"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "after",
+      "name": "맥스리니어",
+      "ticker": "MXL",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "after",
+      "name": "블룸에너지",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "BE"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "after",
+      "name": "웨스턴디지털",
+      "ticker": "WDC",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-22",
       "session": "tba",
       "market": "EU",
       "name": "로레알",
@@ -596,14 +645,6 @@
       "semiconductor": true,
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-22",
-      "session": "tba",
-      "name": "블랙스톤",
-      "ticker": "BX",
-      "confirmed": true,
-      "source": "https://www.blackstone.com/news/press/blackstone-announces-third-quarter-2026-investor-call/"
     },
     {
       "date": "2026-10-22",
@@ -626,6 +667,24 @@
     {
       "date": "2026-10-22",
       "session": "tba",
+      "name": "삼성E&A",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "028050",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "tba",
+      "name": "IPARK현대산업개발",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "294870",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "tba",
       "market": "KR",
       "name": "LG디스플레이",
       "ticker": "034220",
@@ -634,20 +693,12 @@
     },
     {
       "date": "2026-10-22",
-      "session": "after",
-      "name": "맥스리니어",
-      "ticker": "MXL",
+      "session": "tba",
+      "name": "SGC에너지",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-22",
-      "session": "after",
-      "name": "웨스턴디지털",
-      "ticker": "WDC",
-      "semiconductor": true,
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "005090",
+      "market": "KR"
     },
     {
       "date": "2026-10-23",
@@ -683,6 +734,33 @@
       "ticker": "6501",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-23",
+      "session": "tba",
+      "name": "부광약품",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "003000",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-23",
+      "session": "tba",
+      "name": "우리금융지주",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "316140",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-23",
+      "session": "tba",
+      "name": "하나금융지주",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "086790",
+      "market": "KR"
     },
     {
       "date": "2026-10-26",
@@ -725,6 +803,66 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
+      "date": "2026-10-26",
+      "session": "tba",
+      "name": "기업은행",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "024110",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-26",
+      "session": "tba",
+      "name": "제주은행",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "006220",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-26",
+      "session": "tba",
+      "name": "BNK금융지주",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "138930",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-26",
+      "session": "tba",
+      "name": "HD건설기계",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "267270",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "before",
+      "name": "갤럭시디지털",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "GLXY"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "before",
+      "name": "노바티스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "NVS"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "before",
+      "name": "다초뉴에너지",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "DQ"
+    },
+    {
       "date": "2026-10-27",
       "session": "before",
       "name": "로열캐리비안",
@@ -739,6 +877,14 @@
       "ticker": "BA",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "before",
+      "name": "컴볼트시스템즈",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CVLT"
     },
     {
       "date": "2026-10-27",
@@ -775,36 +921,16 @@
     {
       "date": "2026-10-27",
       "session": "before",
+      "name": "허벨",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "HUBB"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "before",
       "name": "SoFi",
       "ticker": "SOFI",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-27",
-      "session": "tba",
-      "market": "EU",
-      "name": "노바티스",
-      "ticker": "NVS",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-27",
-      "session": "tba",
-      "market": "KR",
-      "name": "LG이노텍",
-      "ticker": "011070",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-27",
-      "session": "tba",
-      "market": "EU",
-      "name": "NXP세미컨덕터",
-      "ticker": "NXPI",
-      "semiconductor": true,
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -827,10 +953,26 @@
     {
       "date": "2026-10-27",
       "session": "after",
-      "name": "블룸에너지",
-      "ticker": "BE",
+      "name": "비아샛",
       "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "VSAT"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "빅베어AI",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "BBAI"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "씨게이트",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "STX"
     },
     {
       "date": "2026-10-27",
@@ -843,8 +985,158 @@
     {
       "date": "2026-10-27",
       "session": "after",
+      "name": "인페이즈에너지",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ENPH"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "치즈케이크팩토리",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CAKE"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "테라다인",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "TER"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
+      "name": "F5",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "FFIV"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "after",
       "name": "NXP세미컨덕터",
       "ticker": "NXPI",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "market": "EU",
+      "name": "노바티스",
+      "ticker": "NVS",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "market": "EU",
+      "name": "NXP세미컨덕터",
+      "ticker": "NXPI",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "대우건설",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "047040",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "신한지주",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "055550",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "한미사이언스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "008930",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "한미약품",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "128940",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "한화시스템",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "272210",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "한화오션",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "042660",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "HD현대일렉트릭",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "267260",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "iM금융지주",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "139130",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "ISC",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "095340",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "name": "JB금융지주",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "175330",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-27",
+      "session": "tba",
+      "market": "KR",
+      "name": "LG이노텍",
+      "ticker": "011070",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -855,6 +1147,14 @@
       "ticker": "GRMN",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "before",
+      "name": "버티브",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "VRT"
     },
     {
       "date": "2026-10-28",
@@ -875,10 +1175,10 @@
     {
       "date": "2026-10-28",
       "session": "before",
-      "name": "알파벳",
-      "ticker": "GOOGL",
+      "name": "제네락홀딩스",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "GNRC"
     },
     {
       "date": "2026-10-28",
@@ -914,38 +1214,11 @@
     },
     {
       "date": "2026-10-28",
-      "session": "tba",
-      "market": "JP",
-      "name": "어드반테스트",
-      "ticker": "6857",
-      "semiconductor": true,
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-28",
-      "session": "tba",
-      "market": "KR",
-      "name": "OCI",
-      "ticker": "456040",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-28",
       "session": "after",
       "name": "마이크로소프트",
       "ticker": "MSFT",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-21",
-      "session": "after",
-      "name": "메타플랫폼스",
-      "ticker": "META",
-      "confirmed": true,
-      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "date": "2026-10-28",
@@ -960,14 +1233,6 @@
       "session": "after",
       "name": "서비스나우",
       "ticker": "NOW",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-28",
-      "session": "after",
-      "name": "슈퍼마이크로컴퓨터",
-      "ticker": "SMCI",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -991,10 +1256,10 @@
     {
       "date": "2026-10-28",
       "session": "after",
-      "name": "아마존",
-      "ticker": "AMZN",
+      "name": "알파벳",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "GOOGL"
     },
     {
       "date": "2026-10-28",
@@ -1003,6 +1268,14 @@
       "ticker": "EQIX",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "after",
+      "name": "젠디지털",
+      "ticker": "GEN",
+      "confirmed": true,
+      "source": "https://investor.gendigital.com/news/news-details/2026/Gen-to-Announce-Fiscal-2027-Second-Quarter-Results-on-October-28-2026/default.aspx"
     },
     {
       "date": "2026-10-28",
@@ -1019,6 +1292,22 @@
       "ticker": "CVNA",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "after",
+      "name": "코인베이스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "COIN"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "after",
+      "name": "테너블",
+      "ticker": "TENB",
+      "confirmed": true,
+      "source": "https://investors.tenable.com/news-releases/news-release-details/tenable-announce-fiscal-third-quarter-2026-earnings-results"
     },
     {
       "date": "2026-10-28",
@@ -1086,6 +1375,96 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
+      "date": "2026-10-28",
+      "session": "tba",
+      "market": "JP",
+      "name": "어드반테스트",
+      "ticker": "6857",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "두산퓨얼셀",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "336260",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "삼성물산",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "028260",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "삼성에피스홀딩스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "삼성전기",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "009150",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "호텔신라",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "008770",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "LG전자",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "066570",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "market": "KR",
+      "name": "OCI",
+      "ticker": "456040",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "SK하이닉스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "000660",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-28",
+      "session": "tba",
+      "name": "SKC",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "011790",
+      "market": "KR"
+    },
+    {
       "date": "2026-10-29",
       "session": "before",
       "name": "레오나르도 DRS",
@@ -1104,6 +1483,14 @@
     {
       "date": "2026-10-29",
       "session": "before",
+      "name": "마스터카드",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "MA"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "before",
       "name": "머크",
       "ticker": "MRK",
       "confirmed": false,
@@ -1115,14 +1502,6 @@
       "name": "인테그리스",
       "ticker": "ENTG",
       "semiconductor": true,
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "before",
-      "name": "인텔",
-      "ticker": "INTC",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -1161,6 +1540,14 @@
     {
       "date": "2026-10-29",
       "session": "before",
+      "name": "하얏트호텔스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "H"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "before",
       "name": "하우멧에어로스페이스",
       "ticker": "HWM",
       "confirmed": false,
@@ -1173,6 +1560,14 @@
       "ticker": "HII",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "before",
+      "name": "ATI",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ATI"
     },
     {
       "date": "2026-10-29",
@@ -1216,94 +1611,19 @@
     },
     {
       "date": "2026-10-29",
-      "session": "tba",
-      "market": "EU",
-      "name": "린데",
-      "ticker": "LIN",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "KR",
-      "name": "삼성에스디에스",
-      "ticker": "018260",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "KR",
-      "name": "삼성전자",
-      "ticker": "005930",
-      "semiconductor": true,
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "EU",
-      "name": "슈나이더일렉트릭",
-      "ticker": "SU",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "EU",
-      "name": "아디다스",
-      "ticker": "ADS",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "JP",
-      "name": "이비덴",
-      "ticker": "4062",
-      "semiconductor": true,
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "KR",
-      "name": "한화솔루션",
-      "ticker": "009830",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "KR",
-      "name": "한화에어로스페이스",
-      "ticker": "012450",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "tba",
-      "market": "KR",
-      "name": "OCI홀딩스",
-      "ticker": "010060",
+      "session": "after",
+      "name": "덱스컴",
+      "ticker": "DXCM",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
       "date": "2026-10-29",
       "session": "after",
-      "name": "덱스컴",
-      "ticker": "DXCM",
+      "name": "레딧",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "RDDT"
     },
     {
       "date": "2026-10-29",
@@ -1349,6 +1669,14 @@
     {
       "date": "2026-10-29",
       "session": "after",
+      "name": "아마존",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "AMZN"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "after",
       "name": "인텔",
       "ticker": "INTC",
       "semiconductor": true,
@@ -1366,14 +1694,6 @@
     {
       "date": "2026-10-29",
       "session": "after",
-      "name": "클라우드플레어",
-      "ticker": "NET",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
-    },
-    {
-      "date": "2026-10-29",
-      "session": "after",
       "name": "트윌리오",
       "ticker": "TWLO",
       "confirmed": false,
@@ -1382,10 +1702,181 @@
     {
       "date": "2026-10-29",
       "session": "after",
+      "name": "퍼스트솔라",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "FSLR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "after",
       "name": "AXT",
       "ticker": "AXTI",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "EU",
+      "name": "린데",
+      "ticker": "LIN",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "EU",
+      "name": "슈나이더일렉트릭",
+      "ticker": "SU",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "EU",
+      "name": "아디다스",
+      "ticker": "ADS",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "JP",
+      "name": "이비덴",
+      "ticker": "4062",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "대한전선",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "001440",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "두산로보틱스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "454910",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "두산밥캣",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "241560",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "롯데정밀화학",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "004000",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "KR",
+      "name": "삼성에스디에스",
+      "ticker": "018260",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "KR",
+      "name": "삼성전자",
+      "ticker": "005930",
+      "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "삼성중공업",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "010140",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "삼성SDI",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "006400",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "한화비전",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "KR",
+      "name": "한화솔루션",
+      "ticker": "009830",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "KR",
+      "name": "한화에어로스페이스",
+      "ticker": "012450",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "KB금융",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "105560",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "market": "KR",
+      "name": "OCI홀딩스",
+      "ticker": "010060",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-29",
+      "session": "tba",
+      "name": "SK이노베이션",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "096770",
+      "market": "KR"
     },
     {
       "date": "2026-10-30",
@@ -1398,10 +1889,26 @@
     {
       "date": "2026-10-30",
       "session": "before",
+      "name": "맨해튼어소시에이츠",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "MANH"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "before",
       "name": "사노피",
       "ticker": "SNY",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "before",
+      "name": "셰브론",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CVX"
     },
     {
       "date": "2026-10-30",
@@ -1414,6 +1921,22 @@
     {
       "date": "2026-10-30",
       "session": "before",
+      "name": "엑슨모빌",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "XOM"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "before",
+      "name": "제너럴다이내믹스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "GD"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "before",
       "name": "카메코",
       "ticker": "CCJ",
       "confirmed": false,
@@ -1421,9 +1944,19 @@
     },
     {
       "date": "2026-10-30",
-      "session": "before",
-      "name": "KLA",
-      "ticker": "KLAC",
+      "session": "tba",
+      "market": "EU",
+      "name": "사노피",
+      "ticker": "SNY",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "market": "EU",
+      "name": "아스트라제네카",
+      "ticker": "AZN",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -1458,24 +1991,6 @@
     {
       "date": "2026-10-30",
       "session": "tba",
-      "market": "EU",
-      "name": "사노피",
-      "ticker": "SNY",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-30",
-      "session": "tba",
-      "market": "EU",
-      "name": "아스트라제네카",
-      "ticker": "AZN",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-10-30",
-      "session": "tba",
       "market": "JP",
       "name": "키옥시아",
       "ticker": "285A",
@@ -1504,12 +2019,133 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "기아",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "000270",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "대덕전자",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "353200",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "에이피알",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "278470",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "제일기획",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "030000",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "케이뱅크",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "현대건설",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "000720",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "현대로템",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "064350",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "현대모비스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "012330",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "LG씨엔에스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "064400",
+      "market": "KR"
+    },
+    {
+      "date": "2026-10-30",
+      "session": "tba",
+      "name": "SOOP",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "067160",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "before",
+      "name": "사이퍼마이닝",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CIFR"
+    },
+    {
       "date": "2026-11-02",
       "session": "before",
       "name": "에스티로더",
       "ticker": "EL",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "before",
+      "name": "체크포인트소프트웨어",
+      "ticker": "CHKP",
+      "confirmed": true,
+      "source": "https://www.checkpoint.com/about-us/investor-relations/"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "before",
+      "name": "타워세미컨덕터",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "TSEM"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "before",
+      "name": "템퍼스AI",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "TEM"
     },
     {
       "date": "2026-11-02",
@@ -1531,6 +2167,22 @@
     {
       "date": "2026-11-02",
       "session": "after",
+      "name": "온세미",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ON"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "after",
+      "name": "칼릭스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CALX"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "after",
       "name": "코보",
       "ticker": "QRVO",
       "confirmed": false,
@@ -1539,10 +2191,34 @@
     {
       "date": "2026-11-02",
       "session": "after",
-      "name": "플렉스",
-      "ticker": "FLEX",
+      "name": "트랜스오션",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "RIG"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "after",
+      "name": "파브리넷",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "FN"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "after",
+      "name": "파슨스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "PSN"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "after",
+      "name": "플러터엔터테인먼트",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "FLUT"
     },
     {
       "date": "2026-11-02",
@@ -1551,6 +2227,67 @@
       "ticker": "BWXT",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "tba",
+      "name": "동원시스템즈",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "014820",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "tba",
+      "name": "포스코인터내셔널",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "047050",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "tba",
+      "name": "포스코퓨처엠",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "003670",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "tba",
+      "name": "포스코DX",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "022100",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "tba",
+      "name": "POSCO홀딩스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "005490",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "before",
+      "name": "디지털오션",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "DOCN"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "before",
+      "name": "레비티",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "RVTY"
     },
     {
       "date": "2026-11-03",
@@ -1563,10 +2300,26 @@
     {
       "date": "2026-11-03",
       "session": "before",
+      "name": "얌브랜즈",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "YUM"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "before",
       "name": "업스타트홀딩스",
       "ticker": "UPST",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "before",
+      "name": "엔라이트리뉴어블에너지",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ENLT"
     },
     {
       "date": "2026-11-03",
@@ -1578,21 +2331,19 @@
     },
     {
       "date": "2026-11-03",
-      "session": "tba",
-      "market": "KR",
-      "name": "카카오뱅크",
-      "ticker": "323410",
+      "session": "after",
+      "name": "나비타스세미컨덕터",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "NVTS"
     },
     {
       "date": "2026-11-03",
-      "session": "tba",
-      "market": "KR",
-      "name": "LG에너지솔루션",
-      "ticker": "373220",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "session": "after",
+      "name": "배로니스시스템즈",
+      "ticker": "VRNS",
+      "confirmed": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1361113/000121390026109901/ea030861001ex99-1.htm"
     },
     {
       "date": "2026-11-03",
@@ -1609,6 +2360,22 @@
       "ticker": "XYZ",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "after",
+      "name": "솔리드파워",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "SLDP"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "after",
+      "name": "슈퍼마이크로컴퓨터",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "SMCI"
     },
     {
       "date": "2026-11-03",
@@ -1630,9 +2397,80 @@
     {
       "date": "2026-11-03",
       "session": "after",
+      "name": "쿠팡",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CPNG"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "after",
       "name": "AMD",
       "ticker": "AMD",
       "semiconductor": true,
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "tba",
+      "name": "넥센",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "005720",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "tba",
+      "name": "지누스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "013890",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "tba",
+      "name": "카카오페이",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "377300",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "tba",
+      "name": "하이브",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "352820",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "tba",
+      "name": "DL",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "000210",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "tba",
+      "name": "LG생활건강",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "051900",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-03",
+      "session": "tba",
+      "market": "KR",
+      "name": "LG에너지솔루션",
+      "ticker": "373220",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -1656,6 +2494,30 @@
     {
       "date": "2026-11-04",
       "session": "before",
+      "name": "데이터도그",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "DDOG"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "before",
+      "name": "라이엇플랫폼스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "RIOT"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "before",
+      "name": "맥도날드",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "MCD"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "before",
       "name": "비샤이인터테크놀로지",
       "ticker": "VSH",
       "confirmed": false,
@@ -1668,6 +2530,30 @@
       "ticker": "VPG",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "before",
+      "name": "솔라엣지테크놀로지",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "SEDG"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "before",
+      "name": "솔스테크놀로지",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "SOLS"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "before",
+      "name": "써클",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CRCL"
     },
     {
       "date": "2026-11-04",
@@ -1711,40 +2597,11 @@
     },
     {
       "date": "2026-11-04",
-      "session": "tba",
-      "market": "EU",
-      "name": "노보노디스크",
-      "ticker": "NVO",
+      "session": "after",
+      "name": "더치브로스",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-11-04",
-      "session": "tba",
-      "market": "KR",
-      "name": "카카오뱅크",
-      "ticker": "323410",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-11-04",
-      "session": "tba",
-      "market": "EU",
-      "name": "ARM홀딩스",
-      "ticker": "ARM",
-      "semiconductor": true,
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-11-04",
-      "session": "tba",
-      "market": "EU",
-      "name": "BMW",
-      "ticker": "BMW",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "BROS"
     },
     {
       "date": "2026-11-04",
@@ -1753,6 +2610,22 @@
       "ticker": "DASH",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
+      "name": "래피드7",
+      "ticker": "RPD",
+      "confirmed": true,
+      "source": "https://investors.rapid7.com/overview/default.aspx"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
+      "name": "메르카도리브레",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "MELI"
     },
     {
       "date": "2026-11-04",
@@ -1789,10 +2662,35 @@
     {
       "date": "2026-11-04",
       "session": "after",
+      "name": "코히어런트",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "COHR"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
+      "name": "퀄리스",
+      "ticker": "QLYS",
+      "confirmed": false,
+      "scheduleNote": "시장 추정일 · 변동 가능",
+      "source": "https://www.marketchameleon.com/Overview/QLYS/Earnings/Earnings-Dates/"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
       "name": "퀄컴",
       "ticker": "QCOM",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
+      "name": "테나리스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "TS"
     },
     {
       "date": "2026-11-04",
@@ -1813,6 +2711,14 @@
     {
       "date": "2026-11-04",
       "session": "after",
+      "name": "C3.ai",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "AI"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "after",
       "name": "SiTime",
       "ticker": "SITM",
       "semiconductor": true,
@@ -1828,39 +2734,7 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
-      "date": "2026-11-05",
-      "session": "before",
-      "name": "모더나",
-      "ticker": "MRNA",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance·MarketBeat 예상 일정 · 변동 가능"
-    },
-    {
-      "date": "2026-11-05",
-      "session": "before",
-      "name": "태피스트리",
-      "ticker": "TPR",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-11-05",
-      "session": "before",
-      "name": "템퍼스AI",
-      "ticker": "TEM",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-11-05",
-      "session": "tba",
-      "market": "EU",
-      "name": "노르웨스크",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
-    },
-    {
-      "date": "2026-11-05",
+      "date": "2026-11-04",
       "session": "tba",
       "market": "EU",
       "name": "노보노디스크",
@@ -1869,47 +2743,89 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-04",
       "session": "tba",
       "market": "EU",
-      "name": "레인메탈",
-      "ticker": "RHM",
+      "name": "ARM홀딩스",
+      "ticker": "ARM",
+      "semiconductor": true,
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-04",
+      "session": "tba",
+      "market": "EU",
+      "name": "BMW",
+      "ticker": "BMW",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "tba",
+      "name": "이수앱지스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "086890",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-04",
+      "session": "tba",
+      "name": "카카오게임즈",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "293490",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-04",
       "session": "tba",
       "market": "KR",
-      "name": "스튜디오드래곤",
-      "ticker": "253450",
+      "name": "카카오뱅크",
+      "ticker": "323410",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-04",
       "session": "tba",
-      "market": "EU",
-      "name": "오스테드",
-      "ticker": "ORSTED",
+      "name": "한화",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "000880",
+      "market": "KR"
     },
     {
       "date": "2026-11-05",
-      "session": "tba",
-      "market": "EU",
-      "name": "A.P.몰러머스크",
-      "ticker": "MAERSK-B",
+      "session": "before",
+      "name": "아이맥스",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "IMAX"
     },
     {
       "date": "2026-11-05",
-      "session": "tba",
-      "market": "KR",
-      "name": "CJ ENM",
-      "ticker": "035760",
+      "session": "before",
+      "name": "커민스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CMI"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "before",
+      "name": "코어사이언티픽",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CORZ"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "before",
+      "name": "태피스트리",
+      "ticker": "TPR",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
@@ -1940,18 +2856,18 @@
     {
       "date": "2026-11-05",
       "session": "after",
-      "name": "앱러빈",
-      "ticker": "APP",
+      "name": "어펌홀딩스",
+      "ticker": "AFRM",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
       "date": "2026-11-05",
       "session": "after",
-      "name": "어펌홀딩스",
-      "ticker": "AFRM",
+      "name": "어플라이드옵토일렉트로닉스",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "AAOI"
     },
     {
       "date": "2026-11-05",
@@ -1964,10 +2880,150 @@
     {
       "date": "2026-11-05",
       "session": "after",
+      "name": "이노빅스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ENVX"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "after",
+      "name": "클라우드플레어",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "NET"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "after",
       "name": "MP머티리얼즈",
       "ticker": "MP",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "EU",
+      "name": "노르웨스크",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "EU",
+      "name": "레인메탈",
+      "ticker": "RHM",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "EU",
+      "name": "오스테드",
+      "ticker": "ORSTED",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "EU",
+      "name": "A.P.몰러머스크",
+      "ticker": "MAERSK-B",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "KR",
+      "name": "스튜디오드래곤",
+      "ticker": "253450",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "name": "에코프로",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "086520",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "name": "에코프로머티",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "450080",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "name": "에코프로비엠",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "247540",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "name": "에코프로에이치엔",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "383310",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "name": "카카오",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "035720",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "name": "한온시스템",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "018880",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "market": "KR",
+      "name": "CJ ENM",
+      "ticker": "035760",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-05",
+      "session": "tba",
+      "name": "LG화학",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "051910",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-06",
+      "session": "before",
+      "name": "모더나",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "MRNA"
     },
     {
       "date": "2026-11-06",
@@ -1980,10 +3036,10 @@
     {
       "date": "2026-11-06",
       "session": "before",
-      "name": "아스트라",
-      "ticker": "AZN",
+      "name": "테라울프",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "WULF"
     },
     {
       "date": "2026-11-06",
@@ -2004,11 +3060,85 @@
     {
       "date": "2026-11-06",
       "session": "tba",
+      "name": "금호석유",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "011780",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-06",
+      "session": "tba",
       "market": "KR",
       "name": "롯데쇼핑",
       "ticker": "023530",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-06",
+      "session": "tba",
+      "name": "롯데케미칼",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "011170",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-09",
+      "session": "before",
+      "name": "KKR",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "KKR"
+    },
+    {
+      "date": "2026-11-09",
+      "session": "after",
+      "name": "로켓랩",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "RKLB"
+    },
+    {
+      "date": "2026-11-09",
+      "session": "after",
+      "name": "산미나",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "SANM"
+    },
+    {
+      "date": "2026-11-09",
+      "session": "after",
+      "name": "온투이노베이션",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ONTO"
+    },
+    {
+      "date": "2026-11-09",
+      "session": "after",
+      "name": "테이크투인터랙티브",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "TTWO"
+    },
+    {
+      "date": "2026-11-09",
+      "session": "after",
+      "name": "플러그파워",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "PLUG"
+    },
+    {
+      "date": "2026-11-09",
+      "session": "after",
+      "name": "힘스앤허스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "HIMS"
     },
     {
       "date": "2026-11-10",
@@ -2021,19 +3151,18 @@
     {
       "date": "2026-11-10",
       "session": "before",
-      "name": "리튬아메리카",
-      "ticker": "LAC",
+      "name": "리튬아르헨티나",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "LAR"
     },
     {
       "date": "2026-11-10",
-      "session": "tba",
-      "market": "JP",
-      "name": "소프트뱅크",
-      "ticker": "9984",
+      "session": "after",
+      "name": "에너지볼트홀딩스",
       "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "NRGV"
     },
     {
       "date": "2026-11-10",
@@ -2049,10 +3178,55 @@
       "date": "2026-11-10",
       "session": "tba",
       "market": "JP",
+      "name": "소프트뱅크",
+      "ticker": "9984",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-10",
+      "session": "tba",
+      "market": "JP",
       "name": "후지쿠라",
       "ticker": "5803",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-10",
+      "session": "tba",
+      "name": "시프트업",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "462870",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-10",
+      "session": "tba",
+      "name": "크래프톤",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "259960",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-10",
+      "session": "tba",
+      "name": "CJ제일제당",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "097950",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-10",
+      "session": "tba",
+      "name": "NHN",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "181710",
+      "market": "KR"
     },
     {
       "date": "2026-11-11",
@@ -2075,20 +3249,55 @@
     {
       "date": "2026-11-11",
       "session": "tba",
-      "name": "코어위브",
-      "ticker": "CRWV",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 발표 시각 미정 · 변동 가능"
-    },
-    {
-      "date": "2026-11-11",
-      "session": "tba",
       "market": "EU",
       "name": "테크노프로브",
       "ticker": "TPRO",
       "semiconductor": true,
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-11",
+      "session": "tba",
+      "name": "네오위즈",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "095660",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-11",
+      "session": "tba",
+      "name": "위메이드",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "112040",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-11",
+      "session": "tba",
+      "name": "위메이드맥스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "101730",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "before",
+      "name": "앱사이",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ABSI"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "before",
+      "name": "퍼미",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "FRMI"
     },
     {
       "date": "2026-11-12",
@@ -2109,6 +3318,14 @@
     {
       "date": "2026-11-12",
       "session": "after",
+      "name": "세레브라스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CBRS"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "after",
       "name": "시스코 시스템즈",
       "ticker": "CSCO",
       "confirmed": false,
@@ -2121,6 +3338,99 @@
       "ticker": "AMAT",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "tba",
+      "name": "달바글로벌",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "tba",
+      "name": "펄어비스",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "263750",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "tba",
+      "name": "한화손해보험",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "000370",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "tba",
+      "name": "NAVER",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "035420",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "tba",
+      "name": "NC",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "036570",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-13",
+      "session": "tba",
+      "name": "삼아알미늄",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "006110",
+      "market": "KR"
+    },
+    {
+      "date": "2026-11-16",
+      "session": "before",
+      "name": "발라드파워시스템즈",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "BLDP"
+    },
+    {
+      "date": "2026-11-16",
+      "session": "after",
+      "name": "코어위브",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "CRWV"
+    },
+    {
+      "date": "2026-11-17",
+      "session": "before",
+      "name": "아카데미스포츠",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "ASO"
+    },
+    {
+      "date": "2026-11-17",
+      "session": "before",
+      "name": "월트디즈니",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "DIS"
+    },
+    {
+      "date": "2026-11-17",
+      "session": "before",
+      "name": "텐센트뮤직",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "TME"
     },
     {
       "date": "2026-11-17",
@@ -2142,6 +3452,14 @@
     },
     {
       "date": "2026-11-19",
+      "session": "before",
+      "name": "월마트",
+      "confirmed": false,
+      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
+      "ticker": "WMT"
+    },
+    {
+      "date": "2026-11-19",
       "session": "after",
       "name": "팔로알토네트웍스",
       "ticker": "PANW",
@@ -2155,6 +3473,15 @@
       "ticker": "SMTC",
       "confirmed": false,
       "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
+    },
+    {
+      "date": "2026-11-24",
+      "session": "after",
+      "name": "지스케일러",
+      "ticker": "ZS",
+      "confirmed": false,
+      "scheduleNote": "시장 추정일 · 변동 가능",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/ZS/earnings/"
     },
     {
       "date": "2026-12-01",
@@ -2179,72 +3506,6 @@
       "ticker": "RBRK",
       "confirmed": false,
       "scheduleNote": "Investing.com·TipRanks 예상 일정 · 변동 가능"
-    },
-    {
-      "date": "2026-10-20",
-      "session": "after",
-      "name": "스페이스X",
-      "ticker": "SPCX",
-      "confirmed": true,
-      "source": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
-    },
-    {
-      "date": "2026-10-28",
-      "session": "after",
-      "name": "테너블",
-      "ticker": "TENB",
-      "confirmed": true,
-      "source": "https://investors.tenable.com/news-releases/news-release-details/tenable-announce-fiscal-third-quarter-2026-earnings-results"
-    },
-    {
-      "date": "2026-10-28",
-      "session": "after",
-      "name": "젠디지털",
-      "ticker": "GEN",
-      "confirmed": true,
-      "source": "https://investor.gendigital.com/news/news-details/2026/Gen-to-Announce-Fiscal-2027-Second-Quarter-Results-on-October-28-2026/default.aspx"
-    },
-    {
-      "date": "2026-11-02",
-      "session": "before",
-      "name": "체크포인트소프트웨어",
-      "ticker": "CHKP",
-      "confirmed": true,
-      "source": "https://www.checkpoint.com/about-us/investor-relations/"
-    },
-    {
-      "date": "2026-11-03",
-      "session": "after",
-      "name": "배로니스시스템즈",
-      "ticker": "VRNS",
-      "confirmed": true,
-      "source": "https://www.sec.gov/Archives/edgar/data/1361113/000121390026109901/ea030861001ex99-1.htm"
-    },
-    {
-      "date": "2026-11-04",
-      "session": "after",
-      "name": "래피드7",
-      "ticker": "RPD",
-      "confirmed": true,
-      "source": "https://investors.rapid7.com/overview/default.aspx"
-    },
-    {
-      "date": "2026-11-04",
-      "session": "after",
-      "name": "퀄리스",
-      "ticker": "QLYS",
-      "confirmed": false,
-      "scheduleNote": "시장 추정일 · 변동 가능",
-      "source": "https://www.marketchameleon.com/Overview/QLYS/Earnings/Earnings-Dates/"
-    },
-    {
-      "date": "2026-11-24",
-      "session": "after",
-      "name": "지스케일러",
-      "ticker": "ZS",
-      "confirmed": false,
-      "scheduleNote": "시장 추정일 · 변동 가능",
-      "source": "https://www.marketbeat.com/stocks/NASDAQ/ZS/earnings/"
     },
     {
       "date": "2026-12-03",

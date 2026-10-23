@@ -2,12 +2,13 @@
   "source": "Notion 26.3Q 미국DB",
   "databaseId": "0850296c-0da5-4d53-b3a6-2bf62ab932e0",
   "dataSourceId": "6df7fb69-2624-4a66-92e8-1e03afeea1ba",
-  "updated": "2026-10-23 01:02 KST",
+  "updated": "2026-10-24 02:19 KST",
   "links": {
     "AA": "https://app.notion.com/p/AA-Alcoa-Corporation-Q3-2026-3fa2cff291cc8104988ded86ad0bbf05",
     "APLD": "https://app.notion.com/p/APLD-Applied-Digital-Corporation-Q1-2027-3f32cff291cc81599815e653641bf977",
     "ASML": "https://app.notion.com/p/ASML-ASML-Holding-N-V-Q3-2026-3f92cff291cc81ed993dc98e1d182925",
     "BAC": "https://app.notion.com/p/BAC-Bank-of-America-Corporation-Q3-2026-3f92cff291cc8108bc2bde860711ac88",
+    "BE": "https://app.notion.com/p/BE-Bloom-Energy-Corporation-Q3-2026-4022cff291cc812d803ecaf64fa6b194",
     "BLK": "https://app.notion.com/p/BLK-BlackRock-Inc-Q3-2026-3f92cff291cc810baa88f51952e61896",
     "C": "https://app.notion.com/p/C-Citigroup-Inc-Q3-2026-3f82cff291cc810b8f33ffdf3f31e3d0",
     "CLF": "https://app.notion.com/p/CLF-Cleveland-Cliffs-Inc-Q3-2026-3fe2cff291cc813d8bc1ef1d871aa79e",
@@ -22,6 +23,7 @@
     "ISRG": "https://app.notion.com/p/ISRG-Intuitive-Surgical-Inc-Q3-2026-3ff2cff291cc81c2a164d9c30542c11b",
     "JNJ": "https://app.notion.com/p/JNJ-Johnson-Johnson-Q3-2026-3f82cff291cc81ae9d16f762e0c2c264",
     "JPM": "https://app.notion.com/p/JPM-JPMorgan-Chase-Co-Q3-2026-3f82cff291cc81ffa2bbefbfa2f09d50",
+    "LMT": "https://app.notion.com/p/LMT-Lockheed-Martin-Corporation-Q3-2026-4022cff291cc8118979ac61a552d74eb",
     "LRCX": "https://app.notion.com/p/LRCX-Lam-Research-Corporation-Q3-2026-4012cff291cc814a9236f82dc1f72a5d",
     "MC": "https://app.notion.com/p/MC-LVMH-Mo-t-Hennessy-Louis-Vuitton-SE-Q3-2026-3f72cff291cc8103ba3fd15acee6efdc",
     "META": "https://app.notion.com/p/META-Meta-Platforms-Inc-Q3-2026-4002cff291cc81b5a60efaa2e64f7fe7",
@@ -39,12 +41,15 @@
     "RTX": "https://app.notion.com/p/RTX-RTX-Corporation-Q3-2026-3ff2cff291cc81c490a6f6fb54ca2e75",
     "SAP": "https://app.notion.com/p/SAP-SAP-SE-Q3-2026-4012cff291cc81248c30de5fd31ca575",
     "SCHW": "https://app.notion.com/p/SCHW-The-Charles-Schwab-Corporation-Q3-2026-3fa2cff291cc8199938ef8ed00d1494a",
+    "SDVKY": "https://app.notion.com/p/SDVKY-Sandvik-AB-publ-Q3-2026-4022cff291cc816886a9ed7737f5b038",
     "SPCX": "https://app.notion.com/p/SPCX-Space-Exploration-Technologies-Corp-Q3-2026-3ff2cff291cc8103880bfe5aa998f003",
+    "SPOT": "https://app.notion.com/p/SPOT-Spotify-Technology-S-A-Q3-2026-4022cff291cc81bd8e8bd7d4e795b384",
     "TSLA": "https://app.notion.com/p/TSLA-Tesla-Inc-Q3-2026-4002cff291cc81c5a554cbd7c287d7af",
     "TSM": "https://app.notion.com/p/TSM-Taiwan-Semiconductor-Manufacturing-Company-Limited-Q3-2026-3fa2cff291cc8140bd09f7b1f3fd40d3",
     "TTMI": "https://app.notion.com/p/TTMI-TTM-Technologies-Inc-Q3-2026-4012cff291cc8114bb02d8181de78c6d",
     "TXN": "https://app.notion.com/p/TXN-Texas-Instruments-Incorporated-Q3-2026-4002cff291cc8117b09de8a75af11d22",
     "UNH": "https://app.notion.com/p/UNH-UnitedHealth-Group-Incorporated-Q3-2026-3f82cff291cc8134bfaefb40ca396928",
+    "VLO": "https://app.notion.com/p/VLO-Valero-Energy-Corporation-Q3-2026-4022cff291cc81d69dcfc7e8ece4471c",
     "WFC": "https://app.notion.com/p/WFC-Wells-Fargo-Company-Q3-2026-3f82cff291cc817aa6d5f9b9c3198109"
   }
 }

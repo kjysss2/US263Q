@@ -2,7 +2,7 @@
   "source": "Notion 26.3Q 미국DB",
   "databaseId": "0850296c-0da5-4d53-b3a6-2bf62ab932e0",
   "dataSourceId": "6df7fb69-2624-4a66-92e8-1e03afeea1ba",
-  "updated": "2026-10-25 21:30 KST",
+  "updated": "2026-10-26 14:03 KST",
   "links": {
     "AA": "https://app.notion.com/p/AA-Alcoa-Corporation-Q3-2026-3fa2cff291cc8104988ded86ad0bbf05",
     "AAL": "https://app.notion.com/p/AAL-American-Airlines-Group-Inc-Q3-2026-4032cff291cc8179b1a5f3c32968eb83",
@@ -11,6 +11,7 @@
     "AXP": "https://app.notion.com/p/AXP-American-Express-Company-Q3-2026-4032cff291cc81a28c34e072be102f1c",
     "BAC": "https://app.notion.com/p/BAC-Bank-of-America-Corporation-Q3-2026-3f92cff291cc8108bc2bde860711ac88",
     "BE": "https://app.notion.com/p/BE-Bloom-Energy-Corporation-Q3-2026-4022cff291cc812d803ecaf64fa6b194",
+    "BESI": "https://app.notion.com/p/BESI-BE-Semiconductor-Industries-N-V-Q3-2026-4052cff291cc8131b1f4e6e575bd4710",
     "BLK": "https://app.notion.com/p/BLK-BlackRock-Inc-Q3-2026-3f92cff291cc810baa88f51952e61896",
     "C": "https://app.notion.com/p/C-Citigroup-Inc-Q3-2026-3f82cff291cc810b8f33ffdf3f31e3d0",
     "CLF": "https://app.notion.com/p/CLF-Cleveland-Cliffs-Inc-Q3-2026-3fe2cff291cc813d8bc1ef1d871aa79e",

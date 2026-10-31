@@ -2,7 +2,7 @@
   "source": "Notion 26.3Q 미국DB",
   "databaseId": "0850296c-0da5-4d53-b3a6-2bf62ab932e0",
   "dataSourceId": "6df7fb69-2624-4a66-92e8-1e03afeea1ba",
-  "updated": "2026-10-31 00:49 KST",
+  "updated": "2026-10-31 09:06 KST",
   "links": {
     "AA": "https://app.notion.com/p/AA-Alcoa-Corporation-Q3-2026-3fa2cff291cc8104988ded86ad0bbf05",
     "AAL": "https://app.notion.com/p/AAL-American-Airlines-Group-Inc-Q3-2026-4032cff291cc8179b1a5f3c32968eb83",
@@ -15,6 +15,7 @@
     "ATI": "https://app.notion.com/p/ATI-ATI-Inc-Q3-2026-4082cff291cc8159892efbfc5f9bb502",
     "AXP": "https://app.notion.com/p/AXP-American-Express-Company-Q3-2026-4032cff291cc81a28c34e072be102f1c",
     "AXTI": "https://app.notion.com/p/AXTI-AXT-Inc-Q3-2026-4092cff291cc811baf64e4b543bbba24",
+    "AZN": "https://app.notion.com/p/AZN-AstraZeneca-PLC-Q3-2026-4092cff291cc81a99661fc923e597801",
     "BA": "https://app.notion.com/p/BA-The-Boeing-Company-Q3-2026-4092cff291cc818bbdf5d20e6535ab40",
     "BAC": "https://app.notion.com/p/BAC-Bank-of-America-Corporation-Q3-2026-3f92cff291cc8108bc2bde860711ac88",
     "BBAI": "https://app.notion.com/p/BBAI-BigBear-ai-Holdings-Inc-Q3-2026-4072cff291cc819fbe82d2266e0deecf",
@@ -25,6 +26,7 @@
     "CAKE": "https://app.notion.com/p/CAKE-The-Cheesecake-Factory-Incorporated-Q3-2026-4072cff291cc8120b682dcab7d9246f8",
     "CARR": "https://app.notion.com/p/CARR-Carrier-Global-Corporation-Q3-2026-4082cff291cc817fac72c5fb54fb7720",
     "CAT": "https://app.notion.com/p/CAT-Caterpillar-Inc-Q3-2026-4082cff291cc81f99414ee1366706926",
+    "CCJ": "https://app.notion.com/p/CCJ-Cameco-Corporation-Q3-2026-4092cff291cc813fbffbe869a2e4b94e",
     "CDNS": "https://app.notion.com/p/CDNS-Cadence-Design-Systems-Inc-Q3-2026-4052cff291cc81c3b32deac9bdcb1d8d",
     "CLF": "https://app.notion.com/p/CLF-Cleveland-Cliffs-Inc-Q3-2026-3fe2cff291cc813d8bc1ef1d871aa79e",
     "CLS": "https://app.notion.com/p/CLS-Celestica-Inc-Q3-2026-4082cff291cc8187bef8f7efa9fa6316",
@@ -33,6 +35,7 @@
     "COIN": "https://app.notion.com/p/COIN-Coinbase-Global-Inc-Q3-2026-4082cff291cc81979053d9ab88af450d",
     "CVLT": "https://app.notion.com/p/CVLT-Commvault-Systems-Inc-Q3-2026-4062cff291cc811a8d59cf2207a88abc",
     "CVNA": "https://app.notion.com/p/CVNA-Carvana-Co-Q3-2026-4082cff291cc8168a619ec1f66c018ea",
+    "CVX": "https://app.notion.com/p/CVX-Chevron-Corporation-Q3-2026-4092cff291cc819cb534dcf4ceb6ca41",
     "DAL": "https://app.notion.com/p/DAL-Delta-Air-Lines-Inc-Q3-2026-3f42cff291cc81329877c3f57bbe4ffe",
     "DHR": "https://app.notion.com/p/DHR-Danaher-Corporation-Q3-2026-4012cff291cc8175afd6dca7aa91c77d",
     "DINO": "https://app.notion.com/p/DINO-HF-Sinclair-Corporation-Q3-2026-4082cff291cc8166ad03c493d3b92db7",
@@ -121,6 +124,7 @@
     "SFM": "https://app.notion.com/p/SFM-Sprouts-Farmers-Market-Inc-Q3-2026-4082cff291cc8185bca7d10bae0b42b2",
     "SIMO": "https://app.notion.com/p/SIMO-Silicon-Motion-Technology-Corporation-Q3-2026-4082cff291cc8167ad22cb9df82baa90",
     "SNDK": "https://app.notion.com/p/SNDK-Sandisk-Corporation-Q3-2026-4082cff291cc81bdb247ff8fd9bd874d",
+    "SNY": "https://app.notion.com/p/SNY-Sanofi-Q3-2026-4092cff291cc815a97cfc837b869ab80",
     "SOFI": "https://app.notion.com/p/SOFI-SoFi-Technologies-Inc-Q3-2026-4062cff291cc8156aaa2f6d11730fd05",
     "SPCX": "https://app.notion.com/p/SPCX-Space-Exploration-Technologies-Corp-Q3-2026-3ff2cff291cc8103880bfe5aa998f003",
     "SPOT": "https://app.notion.com/p/SPOT-Spotify-Technology-S-A-Q3-2026-4022cff291cc81bd8e8bd7d4e795b384",
@@ -141,6 +145,7 @@
     "VRT": "https://app.notion.com/p/VRT-Vertiv-Holdings-Co-Q3-2026-4082cff291cc81c0af2aeaa00dc8e1ae",
     "VZ": "https://app.notion.com/p/VZ-Verizon-Communications-Inc-Q3-2026-4052cff291cc81b8a272c5dea8404750",
     "WDC": "https://app.notion.com/p/WDC-Western-Digital-Corporation-Q3-2026-4022cff291cc813ab2bcdf4a4324240b",
-    "WFC": "https://app.notion.com/p/WFC-Wells-Fargo-Company-Q3-2026-3f82cff291cc817aa6d5f9b9c3198109"
+    "WFC": "https://app.notion.com/p/WFC-Wells-Fargo-Company-Q3-2026-3f82cff291cc817aa6d5f9b9c3198109",
+    "XOM": "https://app.notion.com/p/XOM-ExxonMobil-Holdings-Corporation-Q3-2026-4092cff291cc81e1bd4ceaf3ea8f1738"
   }
 }

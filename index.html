@@ -130,6 +130,7 @@
   }
 
   .legend-dot.semiconductor{background:var(--semi-blue)}
+  .legend-dot.cybersecurity{background:var(--red)}
   .legend-dot.highlight{background:var(--red)}
   .legend-dot.confirmed{background:var(--confirmed)}
 
@@ -267,6 +268,12 @@
   /* 반도체 관련 종목은 주요 관심 여부와 관계없이 파란색으로 표시 */
   .co.semiconductor .nm{
     color:var(--semi-blue);
+    font-weight:750;
+  }
+
+  /* 사이버보안 관련 종목은 빨간색으로 표시 */
+  .co.cybersecurity .nm{
+    color:var(--red);
     font-weight:750;
   }
 
@@ -612,6 +619,7 @@
 <main>
   <p class="legend">
     <span class="legend-key"><span class="legend-dot semiconductor"></span><b style="color:var(--semi-blue)">파란 종목</b> = 반도체 관련</span>
+    <span class="legend-key"><span class="legend-dot cybersecurity"></span><b style="color:var(--red)">빨간 종목</b> = 사이버보안 관련</span>
     <span>IR 링크가 있는 항목은 회사 공식 자료로 확인했으며, 그 외 항목은 제공된 잠정 일정(변동 가능)입니다.</span>
     <span>회사 공식 일정이 아직 확인되지 않은 항목은 예상 일정으로 표시하며 변동될 수 있습니다.</span>
     <span>Transcript는 Notion의 <b>26.3Q 미국DB</b>에서 연결된 항목만 표시됩니다.</span>
@@ -648,6 +656,12 @@ const SEMICONDUCTOR_TICKERS=new Set([
   "TSM","TSEM","TXN","UCTT","UMC","VECO"
 ]);
 
+/* 사이버보안을 핵심 사업으로 하는 회사 및 주요 클라우드 보안 업체 */
+const CYBERSECURITY_TICKERS=new Set([
+  "AKAM","CHKP","CRWD","FTNT","GEN","NET","OKTA","PANW","QLYS",
+  "RBRK","RPD","S","TENB","VRNS","ZS"
+]);
+
 
 async function loadJson(url,fallback=null){
   const response=await fetch(url+"?t="+Date.now());
@@ -663,6 +677,11 @@ async function loadJson(url,fallback=null){
 function isSemiconductor(entry){
   return entry.semiconductor===true
     || SEMICONDUCTOR_TICKERS.has(String(entry.ticker||"").toUpperCase());
+}
+
+function isCybersecurity(entry){
+  return entry.cybersecurity===true
+    || CYBERSECURITY_TICKERS.has(String(entry.ticker||"").toUpperCase());
 }
 function parseIso(value){
   const [year,month,day]=String(value).split("-").map(Number);
@@ -1095,6 +1114,7 @@ function companyHtml(entry){
 
   if(entry.hl) classes.push("hl");
   if(isSemiconductor(entry)) classes.push("semiconductor");
+  if(isCybersecurity(entry)) classes.push("cybersecurity");
   if(entry.focus) classes.push("focus");
   const name=escapeHtml(entry.name||entry.ticker||"");
   const ticker=escapeHtml(entry.ticker||"");

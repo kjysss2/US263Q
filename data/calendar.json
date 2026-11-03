@@ -2,7 +2,7 @@
   "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
   "startDate": "2026-09-28",
   "endDate": "2026-12-03",
-  "updated": "2026-10-21 KST",
+  "updated": "2026-11-03 KST",
   "verificationNote": "회사 공식 IR로 확인된 기존 일정과 사용자 제공 이미지의 잠정 일정(미국·한국·일본·유럽)을 함께 표시합니다.",
   "entries": [
     {
@@ -2227,6 +2227,14 @@
       "ticker": "BWXT",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
+    },
+    {
+      "date": "2026-11-02",
+      "session": "after",
+      "name": "팔란티어",
+      "ticker": "PLTR",
+      "confirmed": true,
+      "source": "https://investors.palantir.com/news-details/2026/Palantir-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Webcast/"
     },
     {
       "date": "2026-11-02",

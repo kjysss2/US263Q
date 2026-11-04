@@ -2,7 +2,7 @@
   "source": "Notion 26.3Q 미국DB",
   "databaseId": "0850296c-0da5-4d53-b3a6-2bf62ab932e0",
   "dataSourceId": "6df7fb69-2624-4a66-92e8-1e03afeea1ba",
-  "updated": "2026-11-04 15:05 KST",
+  "updated": "2026-11-04 17:46 KST",
   "links": {
     "AA": "https://app.notion.com/p/AA-Alcoa-Corporation-Q3-2026-3fa2cff291cc8104988ded86ad0bbf05",
     "AAL": "https://app.notion.com/p/AAL-American-Airlines-Group-Inc-Q3-2026-4032cff291cc8179b1a5f3c32968eb83",
@@ -11,8 +11,10 @@
     "AEHR": "https://app.notion.com/p/AEHR-Aehr-Test-Systems-Inc-Q3-2026-40c2cff291cc81369f30e00d3f20552f",
     "AEP": "https://app.notion.com/p/AEP-American-Electric-Power-Company-Inc-Q3-2026-4082cff291cc819586e6d34aeead7587",
     "ALAB": "https://app.notion.com/p/ALAB-Astera-Labs-Inc-Q3-2026-40e2cff291cc81aa8b60f596e432c149",
+    "AMD": "https://app.notion.com/p/AMD-Advanced-Micro-Devices-Inc-Q3-2026-40e2cff291cc8121b083dddf7d1f509a",
     "AMKR": "https://app.notion.com/p/AMKR-Amkor-Technology-Inc-Q3-2026-4052cff291cc81f6a364d0d7934dd406",
     "AMZN": "https://app.notion.com/p/AMZN-Amazon-com-Inc-Q3-2026-4082cff291cc81d3997cd29d4548edaa",
+    "ANET": "https://app.notion.com/p/ANET-Arista-Networks-Inc-Q3-2026-40e2cff291cc815d8095f396d0b915f7",
     "APLD": "https://app.notion.com/p/APLD-Applied-Digital-Corporation-Q1-2027-3f32cff291cc81599815e653641bf977",
     "ASML": "https://app.notion.com/p/ASML-ASML-Holding-N-V-Q3-2026-3f92cff291cc81ed993dc98e1d182925",
     "ATI": "https://app.notion.com/p/ATI-ATI-Inc-Q3-2026-4082cff291cc8159892efbfc5f9bb502",
@@ -121,6 +123,7 @@
     "PBF": "https://app.notion.com/p/PBF-PBF-Energy-Inc-Q3-2026-4082cff291cc81ad91cfc0c4dd833bf1",
     "PENG": "https://app.notion.com/p/PENG-Penguin-Solutions-Inc-Q3-2026-3f12cff291cc8120bb5cfd0ea1fc13c7",
     "PEP": "https://app.notion.com/p/PEP-PepsiCo-Inc-Q3-2026-3f32cff291cc8194b771c86296a12b8b",
+    "PFE": "https://app.notion.com/p/PFE-Pfizer-Inc-Q3-2026-40e2cff291cc81f3b846ff77ca38e2c9",
     "PLTR": "https://app.notion.com/p/PLTR-Palantir-Technologies-Inc-Q3-2026-40d2cff291cc813e91ffe8cdf8a15cc0",
     "PM": "https://app.notion.com/p/PM-Philip-Morris-International-Inc-Q3-2026-4002cff291cc81768065cb41b4c72166",
     "PNC": "https://app.notion.com/p/PNC-The-PNC-Financial-Services-Group-Inc-Q3-2026-3fb2cff291cc81c4ae40e0da5cd0aea1",
@@ -142,6 +145,8 @@
     "SFM": "https://app.notion.com/p/SFM-Sprouts-Farmers-Market-Inc-Q3-2026-4082cff291cc8185bca7d10bae0b42b2",
     "SHOP": "https://app.notion.com/p/SHOP-Shopify-Inc-Q3-2026-40d2cff291cc813e8c5cf06f82d8b9fb",
     "SIMO": "https://app.notion.com/p/SIMO-Silicon-Motion-Technology-Corporation-Q3-2026-4082cff291cc8167ad22cb9df82baa90",
+    "SLDP": "https://app.notion.com/p/SLDP-Solid-Power-Inc-Q3-2026-40e2cff291cc810b8fe5e6af77274a7b",
+    "SMCI": "https://app.notion.com/p/SMCI-Super-Micro-Computer-Inc-Q3-2026-40e2cff291cc814dbecbf61182944de0",
     "SNDK": "https://app.notion.com/p/SNDK-Sandisk-Corporation-Q3-2026-4082cff291cc81bdb247ff8fd9bd874d",
     "SNY": "https://app.notion.com/p/SNY-Sanofi-Q3-2026-4092cff291cc815a97cfc837b869ab80",
     "SOFI": "https://app.notion.com/p/SOFI-SoFi-Technologies-Inc-Q3-2026-4062cff291cc8156aaa2f6d11730fd05",
@@ -169,6 +174,7 @@
     "WDC": "https://app.notion.com/p/WDC-Western-Digital-Corporation-Q3-2026-4022cff291cc813ab2bcdf4a4324240b",
     "WFC": "https://app.notion.com/p/WFC-Wells-Fargo-Company-Q3-2026-3f82cff291cc817aa6d5f9b9c3198109",
     "XOM": "https://app.notion.com/p/XOM-ExxonMobil-Holdings-Corporation-Q3-2026-4092cff291cc81e1bd4ceaf3ea8f1738",
+    "XYZ": "https://app.notion.com/p/XYZ-Block-Inc-Q3-2026-40e2cff291cc81a0b244e938e07476e4",
     "YUM": "https://app.notion.com/p/YUM-Yum-Brands-Inc-Q3-2026-40d2cff291cc8102af25c4b85fe46991"
   }
 }

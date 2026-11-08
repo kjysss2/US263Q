@@ -1,8 +1,8 @@
 {
   "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
   "startDate": "2026-09-28",
-  "endDate": "2026-12-03",
-  "updated": "2026-11-03 KST",
+  "endDate": "2026-12-08",
+  "updated": "2026-11-08 KST",
   "verificationNote": "회사 공식 IR로 확인된 기존 일정과 사용자 제공 이미지의 잠정 일정(미국·한국·일본·유럽)을 함께 표시합니다.",
   "entries": [
     {
@@ -3151,14 +3151,6 @@
     {
       "date": "2026-11-10",
       "session": "before",
-      "name": "네비우스그룹",
-      "ticker": "NBIS",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
-    },
-    {
-      "date": "2026-11-10",
-      "session": "before",
       "name": "리튬아르헨티나",
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능",
@@ -3237,6 +3229,14 @@
       "market": "KR"
     },
     {
+      "date": "2026-11-10",
+      "session": "after",
+      "name": "코어위브",
+      "confirmed": true,
+      "ticker": "CRWV",
+      "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx"
+    },
+    {
       "date": "2026-11-11",
       "session": "tba",
       "market": "EU",
@@ -3290,6 +3290,23 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능",
       "ticker": "101730",
       "market": "KR"
+    },
+    {
+      "date": "2026-11-11",
+      "session": "tba",
+      "name": "NC",
+      "confirmed": true,
+      "ticker": "036570",
+      "market": "KR",
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800314"
+    },
+    {
+      "date": "2026-11-12",
+      "session": "before",
+      "name": "네비우스그룹",
+      "ticker": "NBIS",
+      "confirmed": true,
+      "source": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call"
     },
     {
       "date": "2026-11-12",
@@ -3383,15 +3400,6 @@
       "market": "KR"
     },
     {
-      "date": "2026-11-12",
-      "session": "tba",
-      "name": "NC",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
-      "ticker": "036570",
-      "market": "KR"
-    },
-    {
       "date": "2026-11-13",
       "session": "tba",
       "name": "삼아알미늄",
@@ -3407,22 +3415,6 @@
       "confirmed": false,
       "scheduleNote": "사용자 제공 이미지 · 변동 가능",
       "ticker": "BLDP"
-    },
-    {
-      "date": "2026-11-16",
-      "session": "after",
-      "name": "코어위브",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
-      "ticker": "CRWV"
-    },
-    {
-      "date": "2026-11-17",
-      "session": "before",
-      "name": "아카데미스포츠",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
-      "ticker": "ASO"
     },
     {
       "date": "2026-11-17",
@@ -3459,6 +3451,14 @@
       "scheduleNote": "사용자 제공 이미지 · 변동 가능"
     },
     {
+      "date": "2026-11-18",
+      "session": "after",
+      "name": "팔로알토네트웍스",
+      "ticker": "PANW",
+      "confirmed": true,
+      "source": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-announce-fiscal-first-quarter-2027-financial"
+    },
+    {
       "date": "2026-11-19",
       "session": "before",
       "name": "월마트",
@@ -3467,29 +3467,12 @@
       "ticker": "WMT"
     },
     {
-      "date": "2026-11-19",
-      "session": "after",
-      "name": "팔로알토네트웍스",
-      "ticker": "PANW",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
-    },
-    {
       "date": "2026-11-23",
       "session": "after",
       "name": "셈테크",
       "ticker": "SMTC",
       "confirmed": false,
       "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
-    },
-    {
-      "date": "2026-11-24",
-      "session": "after",
-      "name": "지스케일러",
-      "ticker": "ZS",
-      "confirmed": false,
-      "scheduleNote": "시장 추정일 · 변동 가능",
-      "source": "https://www.marketbeat.com/stocks/NASDAQ/ZS/earnings/"
     },
     {
       "date": "2026-12-01",
@@ -3508,6 +3491,14 @@
       "scheduleNote": "Yahoo Finance·TipRanks 예상 일정 · 변동 가능"
     },
     {
+      "date": "2026-12-02",
+      "session": "after",
+      "name": "지스케일러",
+      "ticker": "ZS",
+      "confirmed": true,
+      "source": "https://ir.zscaler.com/news-releases/news-release-details/zscaler-host-first-quarter-fiscal-year-2027-earnings-conference"
+    },
+    {
       "date": "2026-12-03",
       "session": "after",
       "name": "루브릭",
@@ -3523,6 +3514,15 @@
       "confirmed": false,
       "scheduleNote": "시장 추정일 · 변동 가능",
       "source": "https://www.marketbeat.com/stocks/NYSE/S/earnings/"
+    },
+    {
+      "date": "2026-12-08",
+      "session": "before",
+      "name": "아카데미스포츠",
+      "confirmed": false,
+      "scheduleNote": "MarketBeat 예상 일정 · 변동 가능",
+      "ticker": "ASO",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/ASO/earnings/"
     }
   ]
 }

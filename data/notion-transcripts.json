@@ -2,7 +2,7 @@
   "source": "Notion 26.3Q 미국DB",
   "databaseId": "0850296c-0da5-4d53-b3a6-2bf62ab932e0",
   "dataSourceId": "6df7fb69-2624-4a66-92e8-1e03afeea1ba",
-  "updated": "2026-11-13 09:59 KST",
+  "updated": "2026-11-13 16:48 KST",
   "links": {
     "AA": "https://app.notion.com/p/AA-Alcoa-Corporation-Q3-2026-3fa2cff291cc8104988ded86ad0bbf05",
     "AAL": "https://app.notion.com/p/AAL-American-Airlines-Group-Inc-Q3-2026-4032cff291cc8179b1a5f3c32968eb83",
@@ -87,6 +87,7 @@
     "FLEX": "https://app.notion.com/p/FLEX-Flex-Ltd-Q3-2026-4082cff291cc8112961ad0e16dca5655",
     "FN": "https://app.notion.com/p/FN-Fabrinet-Q3-2026-40d2cff291cc8190ac31e1cee61a8cad",
     "FORM": "https://app.notion.com/p/FORM-FormFactor-Inc-Q3-2026-4082cff291cc81dc9472d74a350c4b08",
+    "FRMI": "https://app.notion.com/p/FRMI-Fermi-Inc-Q3-2026-4172cff291cc81a59336d785d9453f96",
     "FSLR": "https://app.notion.com/p/FSLR-First-Solar-Inc-Q3-2026-4082cff291cc81fa9013f3a9ca18b53f",
     "FTAI": "https://app.notion.com/p/FTAI-FTAI-Aviation-Ltd-Q3-2026-4082cff291cc81328c51c48f84019dd0",
     "FTI": "https://app.notion.com/p/FTI-TechnipFMC-plc-Q3-2026-4082cff291cc814ebf1bc1427ff2fa83",

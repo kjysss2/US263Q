@@ -1,8 +1,8 @@
 {
   "title": "미국·글로벌 주요주 26.3Q 실적발표 일정",
   "startDate": "2026-09-28",
-  "endDate": "2026-12-08",
-  "updated": "2026-11-08 KST",
+  "endDate": "2026-12-14",
+  "updated": "2026-11-13 KST",
   "verificationNote": "회사 공식 IR로 확인된 기존 일정과 사용자 제공 이미지의 잠정 일정(미국·한국·일본·유럽)을 함께 표시합니다.",
   "entries": [
     {
@@ -3417,12 +3417,20 @@
       "ticker": "BLDP"
     },
     {
+      "date": "2026-11-16",
+      "session": "before",
+      "name": "바이두",
+      "ticker": "BIDU",
+      "confirmed": true,
+      "source": "https://ir.baidu.com/index.php/news-releases/news-release-details/baidu-report-third-quarter-2026-financial-results-november-16"
+    },
+    {
       "date": "2026-11-17",
       "session": "before",
       "name": "월트디즈니",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
-      "ticker": "DIS"
+      "confirmed": true,
+      "ticker": "DIS",
+      "source": "https://investor.thewaltdisneycompany.com/news/news-details/2026/The-Walt-Disney-Company-Executives-to-Discuss-Fiscal-Full-Year-and-Fourth-Quarter-2026-Financial-Results-via-Webcast/default.aspx"
     },
     {
       "date": "2026-11-17",
@@ -3437,8 +3445,16 @@
       "session": "after",
       "name": "엔비디아",
       "ticker": "NVDA",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
+      "confirmed": true,
+      "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+    },
+    {
+      "date": "2026-11-17",
+      "session": "before",
+      "name": "홈디포",
+      "ticker": "HD",
+      "confirmed": true,
+      "source": "https://ir.homedepot.com/news-releases/2026/11-03-2026-130236805"
     },
     {
       "date": "2026-11-18",
@@ -3462,9 +3478,25 @@
       "date": "2026-11-19",
       "session": "before",
       "name": "월마트",
-      "confirmed": false,
-      "scheduleNote": "사용자 제공 이미지 · 변동 가능",
-      "ticker": "WMT"
+      "confirmed": true,
+      "ticker": "WMT",
+      "source": "https://corporate.walmart.com/news/events/fy2027-q3-earnings-release"
+    },
+    {
+      "date": "2026-11-19",
+      "session": "after",
+      "name": "인튜이트",
+      "ticker": "INTU",
+      "confirmed": true,
+      "source": "https://investors.intuit.com/news-events/press-releases/detail/1330/intuit-to-announce-first-quarter-fiscal-year-2027-results-on-nov-19"
+    },
+    {
+      "date": "2026-11-19",
+      "session": "before",
+      "name": "알리바바",
+      "ticker": "BABA",
+      "confirmed": true,
+      "source": "https://www.alibabagroup.com/en-US/document-2054756418245885952"
     },
     {
       "date": "2026-11-23",
@@ -3475,20 +3507,46 @@
       "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
     },
     {
+      "date": "2026-11-24",
+      "session": "before",
+      "name": "아날로그디바이시스",
+      "ticker": "ADI",
+      "semiconductor": true,
+      "confirmed": true,
+      "source": "https://investor.analog.com/news-releases/news-release-details/analog-devices-report-fourth-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "date": "2026-11-24",
+      "session": "after",
+      "name": "델테크놀로지스",
+      "ticker": "DELL",
+      "confirmed": true,
+      "source": "https://investors.delltechnologies.com/news-events/events"
+    },
+    {
       "date": "2026-12-01",
       "session": "after",
       "name": "옥타",
       "ticker": "OKTA",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance 예상 일정 · 변동 가능"
+      "confirmed": true,
+      "source": "https://investor.okta.com/news-and-events/news-releases/news-details/2026/Okta-to-Announce-Third-Quarter-Fiscal-Year-2027-Financial-Results-on-December-1-2026/default.aspx"
     },
     {
       "date": "2026-12-01",
       "session": "after",
       "name": "크라우드스트라이크",
       "ticker": "CRWD",
-      "confirmed": false,
-      "scheduleNote": "Yahoo Finance·TipRanks 예상 일정 · 변동 가능"
+      "confirmed": true,
+      "source": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-announces-date-fiscal-third-quarter-2027-financial"
+    },
+    {
+      "date": "2026-12-01",
+      "session": "after",
+      "name": "마벨테크놀로지",
+      "ticker": "MRVL",
+      "semiconductor": true,
+      "confirmed": true,
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results"
     },
     {
       "date": "2026-12-02",
@@ -3497,6 +3555,22 @@
       "ticker": "ZS",
       "confirmed": true,
       "source": "https://ir.zscaler.com/news-releases/news-release-details/zscaler-host-first-quarter-fiscal-year-2027-earnings-conference"
+    },
+    {
+      "date": "2026-12-02",
+      "session": "after",
+      "name": "세일즈포스",
+      "ticker": "CRM",
+      "confirmed": true,
+      "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx"
+    },
+    {
+      "date": "2026-12-02",
+      "session": "after",
+      "name": "스노우플레이크",
+      "ticker": "SNOW",
+      "confirmed": true,
+      "source": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q3-FY27-Earnings/default.aspx"
     },
     {
       "date": "2026-12-03",
@@ -3523,6 +3597,31 @@
       "scheduleNote": "MarketBeat 예상 일정 · 변동 가능",
       "ticker": "ASO",
       "source": "https://www.marketbeat.com/stocks/NASDAQ/ASO/earnings/"
+    },
+    {
+      "date": "2026-12-09",
+      "session": "after",
+      "name": "브로드컴",
+      "ticker": "AVGO",
+      "semiconductor": true,
+      "confirmed": true,
+      "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-fourth-quarter-and-fiscal-year-2026"
+    },
+    {
+      "date": "2026-12-10",
+      "session": "after",
+      "name": "코스트코",
+      "ticker": "COST",
+      "confirmed": true,
+      "source": "https://investor.costco.com/events-and-presentations/default.aspx"
+    },
+    {
+      "date": "2026-12-14",
+      "session": "tba",
+      "name": "오라클",
+      "ticker": "ORCL",
+      "confirmed": true,
+      "source": "https://investor.oracle.com/faq/default.aspx"
     }
   ]
 }

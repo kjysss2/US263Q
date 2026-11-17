@@ -2,7 +2,7 @@
   "source": "Notion 26.3Q 미국DB",
   "databaseId": "0850296c-0da5-4d53-b3a6-2bf62ab932e0",
   "dataSourceId": "6df7fb69-2624-4a66-92e8-1e03afeea1ba",
-  "updated": "2026-11-13 16:48 KST",
+  "updated": "2026-11-18 08:58 KST",
   "links": {
     "AA": "https://app.notion.com/p/AA-Alcoa-Corporation-Q3-2026-3fa2cff291cc8104988ded86ad0bbf05",
     "AAL": "https://app.notion.com/p/AAL-American-Airlines-Group-Inc-Q3-2026-4032cff291cc8179b1a5f3c32968eb83",
@@ -154,6 +154,7 @@
     "NOW": "https://app.notion.com/p/NOW-ServiceNow-Inc-Q3-2026-4082cff291cc81f59951fb046fafe009",
     "NRGV": "https://app.notion.com/p/NRGV-Energy-Vault-Holdings-Inc-Q3-2026-4152cff291cc816b8d35e0405c10b03a",
     "NU": "https://app.notion.com/p/NU-Nu-Holdings-Ltd-Q3-2026-4162cff291cc81819c14c258da3f8022",
+    "NVDA": "https://app.notion.com/p/NVDA-NVIDIA-Corporation-Q3-2026-41b2cff291cc81d09825deb667a519c6",
     "NVO": "https://app.notion.com/p/NVO-Novo-Nordisk-A-S-Q3-2026-40e2cff291cc81049fabf4ae0ae190d4",
     "NVS": "https://app.notion.com/p/NVS-Novartis-AG-Q3-2026-4062cff291cc811b97f9c605af6f4c0c",
     "NVTS": "https://app.notion.com/p/NVTS-Navitas-Semiconductor-Corporation-Q3-2026-40e2cff291cc817caf08e0ba02de3e54",
